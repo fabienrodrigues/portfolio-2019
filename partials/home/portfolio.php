@@ -6,7 +6,7 @@
         <div id="portfolio-content">
             <?php
                 $folder = __DIR__ . '/../../data/projects';
-                $files = scandir($folder, SCANDIR_SORT_NONE);
+                $files = scandir($folder, SCANDIR_SORT_ASCENDING); // SCANDIR_SORT_ASCENDING pour un tri alphanumérique croissant
     
                 if($files) :
                     foreach ($files as $fileName) :

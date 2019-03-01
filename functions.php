@@ -56,6 +56,34 @@ function getProjectData(&$projectName)
     {
         return false;
     }
+    else // NOUVEAU : on crée un attribut slug pour les URL des portfolio
+    {
+        $projectData->slug = strtolower(preg_replace('/^((\d+)-)/', '', $projectName));
+    }
 
     return $projectData;
+}
+
+
+/**
+ * Retourne le nom complet d'un fichier JSON projet associé au slug en paramètre.
+ * @param string $slug
+ * @return null|string Nom du fichier JSON ou null si introuvable.
+ */
+function getJsonFilenameFromSlug($slug)
+{
+    $folder = __DIR__ . '/data/projects';
+    $files = scandir($folder, SCANDIR_SORT_NONE);
+
+    if($files) {
+        foreach ($files as $fileName) {
+            if(stripos($fileName, $slug) !== false)
+            {
+                error_log(substr($fileName, 0, -5));
+                return substr($fileName, 0, -5);
+            }
+        }
+    }
+
+    return null;
 }

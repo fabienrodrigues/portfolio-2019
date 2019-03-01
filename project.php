@@ -3,7 +3,7 @@
     include('functions.php');
 
     $projectName = filter_input(INPUT_GET, 'project', FILTER_SANITIZE_ENCODED);
-    $projectData = getProjectData($projectName);
+    $projectData = getProjectData(getJsonFilenameFromSlug($projectName));
 
     if($projectData === false)
     {
