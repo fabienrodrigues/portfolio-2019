@@ -1,0 +1,28 @@
+{
+    "title": "Yuz",
+    "metaDescription": "meta description du projet",
+    "intro": "Ici mon intro",
+    "websiteLink": "https://www.yuz.fr",
+    "thumbnail": "medias/pages/images/projects/yuz/thumbnail.jpg",
+    "logo": "medias/pages/images/projects/yuz/logo.svg",
+    "image1": {
+        "src": "medias/pages/images/projects/yuz/image1.jpg",
+        "alt": "alt image 1"
+    },
+    "image2": {
+        "src": "medias/pages/images/projects/yuz/image2.jpg",
+        "alt": "alt image 2"
+    },
+    "image3": {
+        "src": "medias/pages/images/projects/yuz/image3.jpg",
+        "alt": "alt image 3"
+    },
+    "iphone": {
+        "src": "medias/pages/images/projects/yuz/iphone.png",
+        "alt": "alt image iphone"
+    },
+    "ipad": {
+        "src": "medias/pages/images/projects/yuz/ipad.png",
+        "alt": "alt image ipad"
+    }
+}

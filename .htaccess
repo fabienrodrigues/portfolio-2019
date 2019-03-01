@@ -1,0 +1,17 @@
+AddDefaultCharset utf-8
+
+RewriteEngine On
+
+# Forcage HTTPS
+RewriteCond %{HTTP_HOST} !^localhost
+RewriteCond %{HTTP_HOST} !^192.168.0.16
+RewriteCond %{HTTPS} off
+RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteRule ^index.html$ index.php [L]
+RewriteRule ^projet/([A-Za-z0-9\-]+)$ project.php?project=$1 [L]
+
+
+
+
+AddType image/svg+xml svg svgz

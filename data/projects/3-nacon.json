@@ -1,0 +1,28 @@
+{
+    "title": "Nacon Gaming",
+    "metaDescription": "meta description du projet",
+    "intro": "Ici mon intro",
+    "websiteLink": "https://www.nacongaming.com",
+    "thumbnail": "medias/pages/images/projects/nacon/thumbnail.jpg",
+    "logo": "medias/pages/images/projects/nacon/logo.svg",
+    "image1": {
+        "src": "medias/pages/images/projects/nacon/image1.jpg",
+        "alt": "alt image 1"
+    },
+    "image2": {
+        "src": "medias/pages/images/projects/nacon/image2.jpg",
+        "alt": "alt image 2"
+    },
+    "image3": {
+        "src": "medias/pages/images/projects/nacon/image3.jpg",
+        "alt": "alt image 3"
+    },
+    "iphone": {
+        "src": "medias/pages/images/projects/nacon/iphone.png",
+        "alt": "alt image iphone"
+    },
+    "ipad": {
+        "src": "medias/pages/images/projects/nacon/ipad.png",
+        "alt": "alt image ipad"
+    }
+}

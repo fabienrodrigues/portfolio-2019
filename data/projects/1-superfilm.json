@@ -1,0 +1,28 @@
+{
+    "title": "Superfilm",
+    "metaDescription": "meta description du projet",
+    "intro": "Ici mon intro",
+    "websiteLink": "https://www.superfilm.fr",
+    "thumbnail": "medias/pages/images/projects/superfilm/thumbnail.jpg",
+    "logo": "medias/pages/images/projects/superfilm/logo.svg",
+    "image1": {
+        "src": "medias/pages/images/projects/superfilm/image1.jpg",
+        "alt": "alt image 1"
+    },
+    "image2": {
+        "src": "medias/pages/images/projects/superfilm/image2.jpg",
+        "alt": "alt image 2"
+    },
+    "image3": {
+        "src": "medias/pages/images/projects/superfilm/image3.jpg",
+        "alt": "alt image 3"
+    },
+    "iphone": {
+        "src": "medias/pages/images/projects/superfilm/iphone.png",
+        "alt": "alt image iphone"
+    },
+    "ipad": {
+        "src": "medias/pages/images/projects/superfilm/ipad.png",
+        "alt": "alt image ipad"
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "title": "Oney 3x 4x",
+    "metaDescription": "meta description du projet",
+    "intro": "Ici mon intro",
+    "websiteLink": "https://www.oney.be",
+    "thumbnail": "medias/pages/images/projects/oney/thumbnail.jpg",
+    "logo": "medias/pages/images/projects/oney/logo.svg",
+    "image1": {
+        "src": "medias/pages/images/projects/oney/image1.jpg",
+        "alt": "alt image 1"
+    },
+    "image2": {
+        "src": "medias/pages/images/projects/oney/image2.jpg",
+        "alt": "alt image 2"
+    },
+    "image3": {
+        "src": "medias/pages/images/projects/oney/image3.jpg",
+        "alt": "alt image 3"
+    },
+    "iphone": {
+        "src": "medias/pages/images/projects/oney/iphone.png",
+        "alt": "alt image iphone"
+    },
+    "ipad": {
+        "src": "medias/pages/images/projects/oney/ipad.png",
+        "alt": "alt image ipad"
+    }
+}

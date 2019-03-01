@@ -1,0 +1,28 @@
+{
+    "title": "Verescence",
+    "metaDescription": "meta description du projet",
+    "intro": "Ici mon intro",
+    "websiteLink": "https://www.verescence.com/fr",
+    "thumbnail": "medias/pages/images/projects/verescence/thumbnail.jpg",
+    "logo": "medias/pages/images/projects/verescence/logo.svg",
+    "image1": {
+        "src": "medias/pages/images/projects/verescence/image1.jpg",
+        "alt": "alt image 1"
+    },
+    "image2": {
+        "src": "medias/pages/images/projects/verescence/image2.jpg",
+        "alt": "alt image 2"
+    },
+    "image3": {
+        "src": "medias/pages/images/projects/verescence/image3.jpg",
+        "alt": "alt image 3"
+    },
+    "iphone": {
+        "src": "medias/pages/images/projects/verescence/iphone.png",
+        "alt": "alt image iphone"
+    },
+    "ipad": {
+        "src": "medias/pages/images/projects/verescence/ipad.png",
+        "alt": "alt image ipad"
+    }
+}

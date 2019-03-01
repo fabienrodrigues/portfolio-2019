@@ -1,0 +1,134 @@
+// GRILLE LG
+@media screen and (min-width: $screen-lg-min) {
+}
+
+
+// GRILLE MD
+@media screen and (max-width:$screen-md-max) {
+    #intro{    
+        & &-content{            
+            .overlay{
+                width: 53%;
+            }
+        }
+    }
+}
+
+
+// GRILLE SM
+@media screen and (max-width:$screen-sm-max) {
+    #intro{    
+        & &-content{            
+            .overlay{
+                width: 73%;
+            }
+        }
+    }
+
+
+    #about{    
+        #jobs{
+            ul{
+                li{    
+                    .job-content{
+                        width: calc(100% - 190px);
+                    }
+                }
+            }
+        }
+
+        #knowledges{
+            ul{
+                flex-wrap: wrap;
+                justify-content: center;
+
+                li{
+                    margin-bottom: $spacerS;
+                    width: 33.333%;
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+
+// GRILLE XS
+@media screen and (max-width: $screen-xs-max){
+
+    #intro{    
+        height: 70vh;
+
+        & &-content{
+            #intro-text{
+                padding: 0 $spacerXS;
+
+                h1{
+                    font-size: 30px;
+                }
+            }
+
+            .overlay{
+                width: 90%;
+            }
+        }
+    }
+
+    #portfolio{    
+        & &-content{    
+            .project-item{
+                width: 50%;
+            }
+        }
+    }
+
+
+    #about{
+        p{    
+            &#about-intro{
+                width: 100%;
+            }
+        }
+
+        #jobs{
+            ul{
+                li{
+                    h4{
+                        width: auto;
+                        padding-left: $spacerS;
+
+                        &:before{
+                            left: -50px;
+                        }
+                    }
+
+                    .job-content{
+                        width: 100%;
+                        padding-left: $spacerS;
+                    }
+                }
+            }
+        }
+
+        #knowledges{
+            ul{
+                li{
+                    margin-bottom: $spacerXS;
+
+                    .icon{
+                        transform: scale(0.8);
+                    }
+                }
+            }
+        }
+    }
+
+
+    #hobbies{
+        p{
+            &#hobbies-intro{
+                width: 100%;
+            }
+        }
+    }
+}

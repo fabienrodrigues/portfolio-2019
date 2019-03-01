@@ -1,0 +1,193 @@
+/* --- HEADER --- */
+#header{
+	background: rgba($greyLight, 0);
+	height: $headerHeight;
+	display: flex;
+	align-items: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	padding: 0 $spacerS;
+	transition: background-color 0.25s ease;
+
+	.logo{
+		@include fontLt;
+		font-size: $fontL;
+		line-height: 0.8;
+		color: $white;
+
+		strong{
+			@include fontBd;
+		}
+	}
+
+	.header-content{
+		position: fixed;
+		top: 0;
+		right: 0;
+		padding: 62vh $spacerS 0;
+
+		// OPEN CLOSE MENU MOBILE
+		.navbar-toggle{
+			background: none;
+			width: 42px;
+			height: 42px;
+			border: 0;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 30px;
+			right: $spacerS;
+			z-index: 110;
+			cursor: pointer;
+			@include easeInOut(0.2s);
+
+			.icon-bar{
+				background: $primary;
+				display: block;
+				width: 100%;
+				height: 2px;
+				position: absolute;
+				right: 0;
+				@include easeInOut(0.2s);
+
+				&:first-child{
+					top: 9px;
+					transform-origin: left top;
+				}
+
+				&:nth-child(2){
+					top: 18px;
+				}
+
+				&:last-child{
+					bottom: 13px;
+					transform-origin: left bottom;
+				}
+			}
+
+			.no-touch &:hover{
+				.icon-bar{
+					&:nth-child(2){
+						width: 95%;
+					}
+	
+					&:last-child{
+						width: 90%;
+					}
+				}
+			}
+
+			&:focus{
+				outline: none;
+				border: 0;
+			}
+		}
+
+		.links-list{
+			background: url(../../images/header/bg-menu.svg) right -1px bottom no-repeat;
+			background-size: 100% auto;
+			position: absolute;
+			top: 0;
+			right: 0;
+			width: 0;
+			height: 0;
+			padding: 0;
+			opacity: 0;
+			@include fontBd;
+			font-size: $fontM;
+			text-transform: uppercase;
+			text-align: right;
+			overflow: hidden;
+			pointer-events: none;
+			@include easeInOutCirc(0.3s);
+
+			li{
+				opacity: 0;
+				margin-bottom: 10px;
+				transform: translateY(-10px);
+				transition: all 0.15s ease;
+				@include stagger(0.05s);
+				
+				a{
+					display: block;
+					color: $primary;
+					transition: color 0.25s ease;
+
+					.no-touch &:hover{
+						color: $primaryDark;
+					}
+				}
+			}
+		}
+	}
+		
+
+	.filter{
+		background: rgba(0,0,0,0.5);
+		position: fixed;
+		top: $headerHeight;
+		left: 0;
+		bottom: 0;
+		width: 50%;
+		display: none;
+	}
+
+
+	&.scrolled{
+		background: rgba($greyLight, 1);
+		
+		.logo{
+			color: $primary;
+			letter-spacing: -0.025em;
+		}
+	}
+
+	&.open .header-content{
+		.links-list{
+			width: 33vw;
+			height: 100%;
+			opacity: 1;
+			padding: 100px $spacerS $spacerS;
+			pointer-events: initial;
+
+			li{
+				opacity: 1;
+				transform: translateY(0);
+			}
+		}
+
+		// OPEN CLOSE MENU MOBILE
+		.navbar-toggle{
+			.icon-bar{
+				&:first-child{
+					top: 11px;
+					transform: rotate(45deg) translate(-1px, -9px);
+				}
+				&:nth-child(2){
+					width: 100%;
+					opacity: 0;
+				}
+				&:last-child{
+					width: 100%;
+					transform: rotate(-45deg) translate(0px, 8px);
+				}
+			}
+
+			.no-touch &:hover{
+				.icon-bar{
+					&:first-child{
+						transform: rotate(45deg) translate(-1px, -9px);
+					}
+					&:last-child{
+						width: 100%;
+						transform: rotate(-45deg) translate(0px, 8px);
+					}
+				}
+			}
+		}
+	}
+}
+/* --- /HEADER --- */

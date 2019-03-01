@@ -1,0 +1,28 @@
+
+{
+    "editor.fontFamily": "Hack",
+    "editor.fontSize": 13,
+    "editor.lineHeight": 18,
+    "window.zoomLevel": 0,
+    "window.openFoldersInNewWindow": true,
+    "terminal.integrated.fontSize": 12,
+    "terminal.integrated.shell.windows": "C:\\WINDOWS\\sysnative\\cmd.exe",
+    "terminal.integrated.shellArgs.windows": ["/K", "C:\\Users\\Fab\\Downloads\\cmder\\vscode.bat"],
+    "git.autofetch": false,
+    "git.enableSmartCommit": true,
+    "files.autoSave": "off",
+    "editor.snippetSuggestions": "top",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "diffEditor.ignoreTrimWhitespace": true,
+    "php.suggest.basic": false,
+    "auto-close-tag.SublimeText3Mode": true,
+    "php": {
+        "prefix": "php",
+        "body": [
+            "<?php $1 ?>"
+        ],
+        "description": "php tag"
+    },
+    "breadcrumbs.enabled": true
+}

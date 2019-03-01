@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+medias/components/images/favicons/*
+medias/components/scripts/min
+medias/components/styles/css
+medias/pages/scripts/min
+medias/pages/styles/css
+medias/vendor
+assets/
