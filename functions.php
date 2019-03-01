@@ -79,7 +79,6 @@ function getJsonFilenameFromSlug($slug)
         foreach ($files as $fileName) {
             if(stripos($fileName, $slug) !== false)
             {
-                error_log(substr($fileName, 0, -5));
                 return substr($fileName, 0, -5);
             }
         }
