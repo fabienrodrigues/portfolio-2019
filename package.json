@@ -1,6 +1,7 @@
 {
 	"name": "portfolio-2019",
 	"devDependencies": {
+	  	"bower": "^1.8.2",
 		"gulp": "^3.9.1",
 		"gulp-autoprefixer": "^5.0.0",
 		"gulp-include": "^2.3.1",
