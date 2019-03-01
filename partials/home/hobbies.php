@@ -5,11 +5,50 @@
         <p id="hobbies-intro">Je pense que pour s’épanouir et avancer sereinement dans son travail il faut parfois savoir décrocher, prendre un peu de recul et aller voir ce qui se passe autour de soi.<br>
         Toutes nos expériences, quelles soient bonnes ou mauvaises, nous enseignent quelque chose et peuvent nous permettre d’en tirer profit dans son travail sans même y penser.<br>
         Voici donc quelques exemples de loisirs, activités, curiosités qui m’inspirent et me boostent en dehors de mes heures de boulot.</p>
+    </div>
 
-        <div id="hobbies-grid" class="grid">
-            <div class="grid-row">
-                <div class="column half"></div>
-                <div class="column half"></div>
+    <div id="hobbies-grid" class="grid">
+        <div class="grid-row">
+            <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/copeaux.jpg'); ?>" alt="" class="hobbie-background">
+
+            <div class="content">
+                <div class="column left">
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/img-left.jpg'); ?>" alt="">
+                </div>
+    
+                <div class="column right">
+                    <h3>Le travail du bois</h3>
+                    
+                    <div class="column-text">
+                        <p>La fierté de faire mes propres meubles, la précision, l’esthétique, l’organisation. <br>
+                        Toutes ces petites choses font que j’adore travailler le bois.</p>
+        
+                        <div class="split"></div>
+                    </div>
+    
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/img-right.jpg'); ?>" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="grid-row">
+            <div class="content">
+                <div class="column left">
+                    <h3>les matières, les couleurs, les formes</h3>
+                    
+                    <div class="column-text">
+                        <p>Le bois, le carbone, l’aluminium, les textiles techniques...</p>
+                        <div class="split"></div>
+                    </div>
+
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-left1.jpg'); ?>" alt="">
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-left2.jpg'); ?>" alt="">
+                </div>
+    
+                <div class="column right">
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-right1.jpg'); ?>" alt="">
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-right2.jpg'); ?>" alt="">
+                </div>
             </div>
         </div>
     </div>

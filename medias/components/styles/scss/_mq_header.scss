@@ -4,37 +4,82 @@
 
 
 // GRILLE MD
-@media screen and (min-width: $screen-md-min) and (max-width:$screen-md-max) {
+@media screen and (max-width:$screen-md-max) {
+    #header{
+        .logo{
+            font-size: $fontM;
+        }
+
+        .header-content{
+            padding-top: $spacerS;
+        }
+    }
 }
 
 
 // GRILLE SM
 @media screen and (max-width:$screen-sm-max) {
+    #header{
+        .header-content{
+            .links-list{
+                li{
+                    padding: 0 10px;
+                }
+            }
+        }
+    }
+
+    
 }
 
 
 // GRILLE XS
 @media screen and (max-width: $screen-xs-max){
     #header{
-        height: $headerHeightSmall;
-        padding: 0 $spacerXS;
+        //height: $headerHeightSmall;
+        height: auto;
+        display: block;
+        padding: $spacerXS;
 
         .logo{
             font-size: $fontM;
         }
 
         .header-content{
+            padding: 0;
+
             .navbar-toggle{
-                top: 7px;
-                right: $spacerXS;
+                display: block;
+                top: 10px;
+                right: 20px;
+            }
+
+            .links-list{
+                display: none;
+                padding: $spacerXS 0 0;
+                text-align: left;
+
+                li{
+                    padding: 10px 0;
+
+                    &:last-child{
+                        padding-bottom: 0;
+                    }
+                }
             }
         }
 
-        &.scrolled{
+        &.open{
+            background: $primary;
+
             .header-content{
-                .navbar-toggle{
-                    
+                .links-list{
+                    display: block;
                 }
+            }
+
+            &.scrolled{
+                background: $greyLight;
             }
         }
     }

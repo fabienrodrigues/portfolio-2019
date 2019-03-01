@@ -39,9 +39,12 @@
     position: relative;
     padding: $spacerM $spacerS;
     overflow: hidden;
+    display: flex;
+    justify-content: center;
 
     .content{
         position: relative;
+        width: 80%;
         z-index: 5;
     }
 

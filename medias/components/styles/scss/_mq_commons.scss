@@ -10,12 +10,17 @@
 
 // GRILLE SM
 @media screen and (max-width:$screen-sm-max) {
+    .section{
+        padding: $spacerS $spacerXS;
+        
+        .content{
+            width: 100%;
+        }
+    }
 }
 
 
 // GRILLE XS
 @media screen and (max-width: $screen-xs-max){
-    .section{
-        padding: $spacerS $spacerXS;
-    }
+    
 }

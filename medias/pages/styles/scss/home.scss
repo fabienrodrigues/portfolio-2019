@@ -272,7 +272,7 @@
                         width: 40px;
                         height: 100%;
                         position: absolute;
-                        left: -65px;
+                        left: 0;
                         transform: skew(-16deg);
                     }
             
@@ -281,7 +281,7 @@
                         background: $primary;
                         position: absolute;
                         bottom: 0;
-                        left: -40px;
+                        left: 0;
                         right: 0;
                         height: 1px;
                     }
@@ -369,10 +369,61 @@
 
 
 #hobbies{
+    flex-wrap: wrap;
+    
     p{
         &#hobbies-intro{
             width: 75%;
             margin-bottom: $spacerM;
+        }
+    }
+
+    #hobbies-grid{
+        width: 100%;
+
+        .grid-row{
+            display: flex;
+            justify-content: center;
+            margin-bottom: $spacerM;
+
+            .content{
+                display: flex;
+            }
+
+            .column{
+                width: 50%;
+
+                &.left{
+                    padding-right: $spacerXS;
+                }
+                &.right{
+                    padding-left: $spacerXS;
+                }
+
+                /* img{
+                    display: block;
+                    margin: 0 auto;
+                } */
+
+                h3{
+                    margin-bottom: $spacerS;
+                }
+
+                .column-text{
+                    display: inline-block;
+                }
+
+                p{
+                    display: inline-block;
+                }
+
+                .split{
+                    background: $greyDark;
+                    width: 1px;
+                    height: $spacerS;
+                    margin: $spacerS auto;
+                }
+            }
         }
     }
 

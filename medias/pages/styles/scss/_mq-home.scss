@@ -29,7 +29,13 @@
     #about{    
         #jobs{
             ul{
-                li{    
+                li{
+                    h4{
+                        &:before{
+                            left: -33px;
+                        }
+                    }
+
                     .job-content{
                         width: calc(100% - 190px);
                     }
@@ -96,10 +102,6 @@
                     h4{
                         width: auto;
                         padding-left: $spacerS;
-
-                        &:before{
-                            left: -50px;
-                        }
                     }
 
                     .job-content{
