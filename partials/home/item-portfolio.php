@@ -1,4 +1,4 @@
-<a href="<?php echo baseUrl('/projet/' . $projectName); ?>" class="project-item">
+<a href="<?php echo baseUrl('/projet/' . $projectData->slug); ?>" class="project-item">
     <div class="item-content imgLiquid">
         <img src="<?php echo baseUrl($projectData->thumbnail); ?>" alt="<?php echo $projectData->title; ?>">
     </div>

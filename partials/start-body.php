@@ -74,7 +74,7 @@
 
     <!-- Favicons
     ================================================== -->
-    <link rel="shortcut icon" href="<?php echo baseUrl(medias/components/images/favicons/favicon.ico); ?>">
+    <link rel="shortcut icon" href="<?php echo baseUrl("medias/components/images/favicons/favicon.ico"); ?>">
     <link rel="icon" type="image/png" sizes="16x16" href="<?php echo baseUrl('medias/components/images/favicons/favicon-16x16.png'); ?>">
     <link rel="icon" type="image/png" sizes="32x32" href="<?php echo baseUrl('medias/components/images/favicons/favicon-32x32.png'); ?>">
     <meta name="mobile-web-app-capable" content="yes">
