@@ -22,10 +22,10 @@
     },
     "iphone": {
         "src": "medias/pages/images/projects/oney/iphone.png",
-        "alt": "alt image iphone"
+        "alt": "Oney 3x 4x - Espace partenaires sur mobile"
     },
     "ipad": {
         "src": "medias/pages/images/projects/oney/ipad.png",
-        "alt": "alt image ipad"
+        "alt": "Oney 3x 4x - Espace partenaires sur tablette"
     }
 }

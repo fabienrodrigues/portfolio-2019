@@ -75,6 +75,7 @@
         width: 50%;
         position: relative;
         z-index: 10;
+        padding: 0 $spacerXS;
 
         img{
             display: block;
@@ -251,4 +252,4 @@
 }
 
 
-@import 'mq-home';
+@import 'mq-project';

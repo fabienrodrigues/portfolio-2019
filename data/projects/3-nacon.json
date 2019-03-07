@@ -1,6 +1,6 @@
 {
     "title": "Nacon Gaming",
-    "metaDescription": "meta description du projet",
+    "metaDescription": "Nacon Gaming - Révèle Ton Niveau de Jeu",
     "intro": "Développement Front-end du site vitrine de <strong>Nacon</strong>. Marque d'accessoires gaming de <strong>Bigben</strong>.<br> Développement réalisé via le CMS Wordpress",
     "websiteLink": "https://www.nacongaming.com",
     "thumbnail": "medias/pages/images/projects/nacon/thumbnail.jpg",
@@ -10,22 +10,22 @@
     },
     "firstimg": {
         "src": "medias/pages/images/projects/nacon/intro.jpg",
-        "alt": "alt image 1"
+        "alt": "Nacon Gaming - Home"
     },
     "page1": {
         "src": "medias/pages/images/projects/nacon/produit-full.jpg",
-        "alt": "alt image 2"
+        "alt": "Nacon Gaming - Page produit"
     },
     "page2": {
         "src": "medias/pages/images/projects/nacon/my-nacon-full.jpg",
-        "alt": "alt image 3"
+        "alt": "Nacon Gaming - Home de MyNacon"
     },
     "iphone": {
         "src": "medias/pages/images/projects/nacon/my-nacon-mobile.png",
-        "alt": "alt image iphone"
+        "alt": "Nacon Gaming - Actualités"
     },
     "ipad": {
         "src": "medias/pages/images/projects/nacon/news-ipad.png",
-        "alt": "alt image ipad"
+        "alt": "Nacon Gaming - Détail d'une actualité"
     }
 }

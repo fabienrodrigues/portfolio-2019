@@ -1,7 +1,7 @@
 {
     "title": "Superfilm",
     "metaDescription": "Superfilm - Simplifiez la production de vos films créatifs",
-    "intro": "Développement Front-End du site <strong>Superfilm</strong>",
+    "intro": "Développement Front-End du site <strong>Superfilm</strong>.",
     "websiteLink": "https://www.superfilm.fr",
     "thumbnail": "medias/pages/images/projects/superfilm/thumbnail.jpg",
     "logo": {
@@ -10,22 +10,22 @@
     },
     "firstimg": {
         "src": "medias/pages/images/projects/superfilm/intro.jpg",
-        "alt": "alt image 1"
+        "alt": "Superfilm - Simplifiez la production de vos films créatifs"
     },
     "page1": {
         "src": "medias/pages/images/projects/superfilm/home-full.jpg",
-        "alt": "alt image 2"
+        "alt": "Superfilm - Simplifiez la production de vos films créatifs"
     },
     "page2": {
         "src": "medias/pages/images/projects/superfilm/categorie-full.jpg",
-        "alt": "alt image 3"
+        "alt": "Superfilm - Catégorie Reportage"
     },
     "iphone": {
         "src": "medias/pages/images/projects/superfilm/devis-mobile.png",
-        "alt": "alt image iphone"
+        "alt": "Superfilm - Catégorie Reportage"
     },
     "ipad": {
         "src": "medias/pages/images/projects/superfilm/configuration-ipad.png",
-        "alt": "alt image ipad"
+        "alt": "Superfilm - Configuration"
     }
 }

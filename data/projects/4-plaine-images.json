@@ -22,10 +22,10 @@
     },
     "iphone": {
         "src": "medias/pages/images/projects/plaine-images/home-mobile.png",
-        "alt": "alt image iphone"
+        "alt": "Plaine Images - Home sur mobile"
     },
     "ipad": {
         "src": "medias/pages/images/projects/plaine-images/entreprise-ipad.png",
-        "alt": "alt image ipad"
+        "alt": "Plaine Images - Page entreprise sur tablette"
     }
 }
