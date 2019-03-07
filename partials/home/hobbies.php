@@ -11,9 +11,9 @@
         <div class="grid-row">
             <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/copeaux.jpg'); ?>" alt="" class="hobbie-background">
 
-            <div class="content">
+            <div class="content reverse-xs">
                 <div class="column left">
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/img-left.jpg'); ?>" alt="">
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/img-left.jpg'); ?>" alt="" class="center">
                 </div>
     
                 <div class="column right">
@@ -37,22 +37,69 @@
                     <h3>les matières, les couleurs, les formes</h3>
                     
                     <div class="column-text">
-                        <p>Le bois, le carbone, l’aluminium, les textiles techniques...</p>
+                        <p>Le bois, le carbone, l’aluminium, les textiles techniques...<br>
+                        Allier la technique et l'esthétique, le beau et l'utile caractérisent ma vision des choses dans mon travail et plus généralement dans mon quotidien.</p>
                         <div class="split"></div>
                     </div>
+                </div>
+            </div>
 
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-left1.jpg'); ?>" alt="">
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-left2.jpg'); ?>" alt="">
+            <div class="content middle">
+                <div class="column left">
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-left2.jpg'); ?>" alt="" class="center">
                 </div>
     
                 <div class="column right">
                     <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-right1.jpg'); ?>" alt="">
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-right2.jpg'); ?>" alt="">
                 </div>
+            </div>
+
+            <div class="content middle">
+                <div class="column left">
+                        <div class="quote">
+                            <h3>Nos designs sont intemporels, intuitifs, minimalistes et centrés sur l’humain. <br>
+                            Ils mettent l’accent sur la fonctionnalité et la simplicité.</h3>
+                        <div class="author">Arc'teryx</div>
+                    </div>
+                </div>
+
+                <div class="column right">
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-left1.jpg'); ?>" alt="Arc'teryx" class="mtSpacerM">
+                </div>
+            </div>
+        </div>
+
+
+        <div class="grid-row">
+            <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/copeaux.jpg'); ?>" alt="" class="hobbie-background">
+
+            <div class="content reverse-xs">
+                <div class="column left">
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/loisirs/img-right.jpg'); ?>" alt="">
+
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/loisirs/img-right2.jpg'); ?>" alt="">
+                </div>
+
+                <div class="column right">
+                    <h3>Ma famille, la nature, le sport</h3>
+                    
+                    <div class="column-text">
+                        <p>Ma belle-famille étant dans le Jura, nous profitons de longs week-ends ou les vacances pour aller profiter au maximum de la nature. La forêt, les lacs et les grands espaces vallonnés.</p>
+        
+                        <div class="split"></div>
+                    </div>
+    
+                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/loisirs/img-left.jpg'); ?>" alt="">
+                </div>
+
+                
             </div>
         </div>
     </div>
 
-    <svg version="1.1" class="side-left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 518.4 1383.46" style="enable-background:new 0 0 518.4 1383.46;" xml:space="preserve"><polygon points="92.18,0 0,0 0,1383.46 518.4,1383.46 "/></svg>
+    <svg version="1.1" class="side-left-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 518.4 1383.46" style="enable-background:new 0 0 518.4 1383.46;" xml:space="preserve"><polygon points="92.18,0 0,0 0,1383.46 518.4,1383.46 "/></svg>
     <svg version="1.1" class="side-right-top" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 518.4 1383.46" style="enable-background:new 0 0 518.4 1383.46;" xml:space="preserve"><polygon points="92.18,0 0,0 0,1383.46 518.4,1383.46 "/></svg>
+
+    <svg version="1.1" class="side-left-bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 518.4 1383.46" style="enable-background:new 0 0 518.4 1383.46;" xml:space="preserve"><polygon points="92.18,0 0,0 0,1383.46 518.4,1383.46 "/></svg>
+    <svg version="1.1" class="side-right-bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 518.4 1383.46" style="enable-background:new 0 0 518.4 1383.46;" xml:space="preserve"><polygon points="92.18,0 0,0 0,1383.46 518.4,1383.46 "/></svg>
 </div>

@@ -56,7 +56,7 @@
 
     <!-- FONTS
     ================================================== -->
-    <link href="https://fonts.googleapis.com/css?family=Yantramanav:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Slabo+27px|Yantramanav:300,400,700" rel="stylesheet">
 
 
     <!-- CSS

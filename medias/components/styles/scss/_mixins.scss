@@ -18,6 +18,12 @@
     font-style: normal;
 }
 
+@mixin fontSerif{
+    font-family: 'Slabo 27px', serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
 
 @mixin absoluteCenter{
     position: absolute;

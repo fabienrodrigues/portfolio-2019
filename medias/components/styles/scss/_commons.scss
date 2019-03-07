@@ -40,12 +40,17 @@
     padding: $spacerM $spacerS;
     overflow: hidden;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 
     .content{
         position: relative;
         width: 80%;
         z-index: 5;
+
+        &.center{
+            text-align: center;
+        }
     }
 
     h2{

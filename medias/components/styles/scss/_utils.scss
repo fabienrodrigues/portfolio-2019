@@ -45,3 +45,8 @@ $sizes: 0,5,10,20,30,40,50,60;
 
 	.ml#{$size} { margin-left: #{$size}px !important; }
 }
+
+
+.mtSpacerM{
+	margin-top: $spacerM;
+}

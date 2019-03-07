@@ -1,28 +1,31 @@
 {
     "title": "La Plaine Images",
-    "metaDescription": "meta description du projet",
-    "intro": "Ici mon intro",
+    "metaDescription": "Plaine Images - Le site d’excellence dédié aux industries créatives",
+    "intro": "Développement Front-end du site de la Plaine Images avec le CMS Wordpress.",
     "websiteLink": "https://www.plaine-images.com",
     "thumbnail": "medias/pages/images/projects/plaine-images/thumbnail.jpg",
-    "logo": "medias/pages/images/projects/plaine-images/logo.svg",
-    "image1": {
-        "src": "medias/pages/images/projects/plaine-images/image1.jpg",
-        "alt": "alt image 1"
+    "logo": {
+        "src": "medias/pages/images/projects/plaine-images/logo.svg",
+        "width": "348px"
     },
-    "image2": {
-        "src": "medias/pages/images/projects/plaine-images/image2.jpg",
-        "alt": "alt image 2"
+    "firstimg": {
+        "src": "medias/pages/images/projects/plaine-images/intro.jpg",
+        "alt": "Plaine Images"
     },
-    "image3": {
-        "src": "medias/pages/images/projects/plaine-images/image3.jpg",
-        "alt": "alt image 3"
+    "page1": {
+        "src": "medias/pages/images/projects/plaine-images/location-espace.jpg",
+        "alt": "Plaine Images, location d'espaces privatifs"
+    },
+    "page2": {
+        "src": "medias/pages/images/projects/plaine-images/emploi.jpg",
+        "alt": "Plaine Images, recherche d'emploi"
     },
     "iphone": {
-        "src": "medias/pages/images/projects/plaine-images/iphone.png",
+        "src": "medias/pages/images/projects/plaine-images/home-mobile.png",
         "alt": "alt image iphone"
     },
     "ipad": {
-        "src": "medias/pages/images/projects/plaine-images/ipad.png",
+        "src": "medias/pages/images/projects/plaine-images/entreprise-ipad.png",
         "alt": "alt image ipad"
     }
 }

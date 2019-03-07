@@ -4,7 +4,7 @@
     
         <!-- JS
         ================================================== -->
-        <script src="medias/components/scripts/min/main.js"></script>
+        <script src="<?php echo baseUrl('/'); ?>medias/components/scripts/min/main.js"></script>
         <?php
             if(isset($jsFiles))
             {

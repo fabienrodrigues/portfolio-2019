@@ -140,6 +140,11 @@
 	}
 
 
+	&.forced ~ #content{
+		padding-top: $spacerM;
+	}
+
+
 	&.scrolled{
 		background: rgba($greyLight, 1);
 		

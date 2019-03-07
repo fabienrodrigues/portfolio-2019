@@ -63,7 +63,7 @@
 @media screen and (max-width: $screen-xs-max){
 
     #intro{    
-        height: 70vh;
+        height: 60vh;
 
         & &-content{
             #intro-text{
@@ -75,7 +75,7 @@
             }
 
             .overlay{
-                width: 90%;
+                width: 85%;
             }
         }
     }
@@ -123,6 +123,21 @@
                 }
             }
         }
+
+
+        .side-left{
+            height: 50%;
+            transform: scaleY(-1) translateX(-40%);
+        }
+    
+        .side-right-top{
+            transform: scaleY(-1) rotate(25deg) translate(120%, 20%);
+        }
+    
+        .side-right-bottom{
+            height: 50%;
+            transform: scaleX(-1) translateX(-40%);
+        }
     }
 
 
@@ -130,6 +145,49 @@
         p{
             &#hobbies-intro{
                 width: 100%;
+            }
+        }
+
+        #hobbies-grid{
+            width: 100%;
+    
+            .grid-row{    
+                .content{
+                    flex-wrap: wrap;
+
+                    &.reverse-xs{
+                        flex-wrap: wrap-reverse;
+                    }
+                }
+    
+                .column{
+                    flex: 1 1 100%;
+                    width: 100%;
+                    margin-bottom: 0;
+    
+                    &.left{
+                        padding-right: 0;
+                    }
+                    &.right{
+                        padding-left: 0;
+                    }
+
+                    img{
+                        margin-bottom: $spacerS;
+
+                        &.center{
+                            margin-bottom: $spacerS;
+                        }
+
+                        &.mtSpacerM{
+                            margin-top: 0;
+                        }
+                    }
+
+                    .quote{
+                        margin-bottom: $spacerS;
+                    }
+                }
             }
         }
     }

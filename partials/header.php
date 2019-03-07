@@ -12,7 +12,7 @@
             <li><a href="<?php echo baseUrl('/'); ?>#portfolio">Mon portfolio</a></li>
             <li><a href="<?php echo baseUrl('/'); ?>#about">A propos</a></li>
             <li><a href="<?php echo baseUrl('/'); ?>#hobbies">Mes loisirs</a></li>
-            <li><a href="<?php echo baseUrl('/'); ?>#contacts">Me contacter</a></li>
+            <li><a href="#contacts">Me contacter</a></li>
         </ul>
     </div>
 </header>

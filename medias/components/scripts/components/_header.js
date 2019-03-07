@@ -1,6 +1,10 @@
 
 function initHeader() {
 	headerScroll($(window).scrollTop());
+
+	if(headerState.isForceScrolled) {
+		header.classList.add('forced');
+	}
 };
 
 domReadyFunctions.push(initHeader);
@@ -50,15 +54,21 @@ function headerScroll(windowScroll) {
 		
 	} else {
 		
-		if(headerState.isScrolled) {
+		if(headerState.isScrolled && !headerState.isForceScrolled ) {
 			headerState.notScrolled();
+		}
+
+		if(headerState.isForceScrolled) {
+			headerState.scrolled();
 		}
 		
 	}
 };
 
+
 var headerState = {
 	isScrolled: false,
+	isForceScrolled: false,
 	scrolled : function() {
 		header.classList.add('scrolled');
 		this.isScrolled = true;

@@ -1,21 +1,24 @@
 {
     "title": "Oney 3x 4x",
-    "metaDescription": "meta description du projet",
-    "intro": "Ici mon intro",
+    "metaDescription": "Oney 3x 4x",
+    "intro": "Développement du site Oney 3x 4x avec le CMS Wordpress. Site multilingue et responsive.",
     "websiteLink": "https://www.oney.be",
     "thumbnail": "medias/pages/images/projects/oney/thumbnail.jpg",
-    "logo": "medias/pages/images/projects/oney/logo.svg",
-    "image1": {
-        "src": "medias/pages/images/projects/oney/image1.jpg",
-        "alt": "alt image 1"
+    "logo": {
+        "src": "medias/pages/images/projects/oney/logo.png",
+        "width": ""
     },
-    "image2": {
-        "src": "medias/pages/images/projects/oney/image2.jpg",
-        "alt": "alt image 2"
+    "firstimg": {
+        "src": "medias/pages/images/projects/oney/intro.jpg",
+        "alt": "Oney 3x 4x"
     },
-    "image3": {
-        "src": "medias/pages/images/projects/oney/image3.jpg",
-        "alt": "alt image 3"
+    "page1": {
+        "src": "medias/pages/images/projects/oney/etape1.jpg",
+        "alt": "Oney 3x 4x, etape 1 du paiement"
+    },
+    "page2": {
+        "src": "medias/pages/images/projects/oney/faq.jpg",
+        "alt": "Oney 3x 4x, Foire aux questions"
     },
     "iphone": {
         "src": "medias/pages/images/projects/oney/iphone.png",

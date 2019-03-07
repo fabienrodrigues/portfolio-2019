@@ -94,12 +94,13 @@
         flex-wrap: wrap;
         position: relative;
         z-index: 3;
-        margin-top: $spacerS;
+        margin: $spacerS ($spacerXS * -1);
 
         .project-item{
             width: 33.333%;
             overflow: hidden;
             position: relative;
+            padding: $spacerXS;
 
             .item-content{
                 width: 100%;
@@ -146,31 +147,18 @@
 
             .item-overlay{
                 position: absolute;
-                top: 0;
-                right: 0;
-                width: 100%;
-                height: 100%;
+                top: $spacerXS;
+                right: $spacerXS;
+                width: calc(100% - #{$spacerS});
+                height: calc(100% - #{$spacerS});
+                overflow: hidden;
 
-                /* &:before{
-                    content: '';
-                    background: url(../../images/home/portfolio/overlay-white.svg) 0 0 no-repeat;
-                    background-size: auto 100%;
-                    width: 100%;
-                    height: 100%;
-                    position: absolute;
-                    top: 0;
-                    left: 0;
-                    transform: translateX(100%);
-                    @include easeInOutCirc(0.5s, transform);
-                } */
-                
                 img{
                     display: block;
                     width: 100%;
                     height: 100%;
                     transform: translateX(100%);
                     @include easeInOutCirc(0.25s, transform);
-                    //transition-delay: 0.2s;
                 }
             }
 
@@ -373,7 +361,7 @@
     
     p{
         &#hobbies-intro{
-            width: 75%;
+            width: 80%;
             margin-bottom: $spacerM;
         }
     }
@@ -384,10 +372,16 @@
         .grid-row{
             display: flex;
             justify-content: center;
+            flex-wrap: wrap;
             margin-bottom: $spacerM;
 
             .content{
                 display: flex;
+                flex-direction: row;
+
+                &.middle{
+                    align-items: center;
+                }
             }
 
             .column{
@@ -400,10 +394,15 @@
                     padding-left: $spacerXS;
                 }
 
-                /* img{
+                img{
                     display: block;
-                    margin: 0 auto;
-                } */
+                    max-width: 100%;
+                    margin-bottom: $spacerS;
+
+                    &.center{
+                        margin: 0 auto;
+                    }
+                }
 
                 h3{
                     margin-bottom: $spacerS;
@@ -417,6 +416,41 @@
                     display: inline-block;
                 }
 
+                .quote{
+                    width: 100%;
+                    margin: 0 auto;
+                    text-align: center;
+
+                    h3{
+                        margin-bottom: 10px;
+                        @include fontSerif;
+                        text-transform: none;
+                        line-height: 1.4;
+
+                        &:before,
+                        &:after{
+                            content: '"';
+                            display: inline-block;
+                            font-size: $fontXL;
+                            line-height: $fontS;
+                        }
+
+                        &:before{
+                            margin-right: 10px;
+                        }
+                        &:after{
+                            background: none;
+                            margin-top: 10px;
+                            margin-left: 6px;
+                            border: none;
+                        }
+                    }
+
+                    .author{
+                        color: rgba($greyDark, 0.8);
+                    }
+                }
+
                 .split{
                     background: $greyDark;
                     width: 1px;
@@ -427,22 +461,42 @@
         }
     }
 
-    .side-left{
-        fill: rgba($greyLight, 0.3);
-        width: auto;
-        height: 100%;
+    .side-left-top{
+        fill: rgba($greyLight, 0.5);
+        width: 25%;
+        height: auto;
         position: absolute;
         top: 0;
         left: 0;
-        transform: scaleY(-1);
+        transform: scaleY(-1) rotate(-5deg) translate(-14%, 5%);
     }
 
     .side-right-top{
-        fill: rgba($greyLight, 0.3);
+        fill: rgba($greyLight, 0.6);
         position: absolute;
         top: 0;
         right: 0;
         transform: scaleY(-1) rotate(25deg) translateX(130%);
+    }
+
+    .side-left-bottom{
+        fill: rgba($greyLight, 0.6);
+        width: 20%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        transform: translateX(-16%);
+    }
+
+    .side-right-bottom{
+        fill: rgba($greyLight, 0.7);
+        width: 20%;
+        height: auto;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        transform: scaleX(-1) translateX(-20%);
     }
 }
 

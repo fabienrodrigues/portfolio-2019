@@ -13,7 +13,7 @@
 
     $data = [
         'cssFiles' => [baseUrl('/medias/pages/styles/css/project.css')],
-        'jsFiles' => [baseUrl('/medias/components/scripts/min/project.js')],
+        'jsFiles' => [baseUrl('/medias/pages/scripts/min/project.js')],
         'title' => $projectData->title
     ];    
     template('partials/start-body.php', $data);
@@ -23,7 +23,9 @@
     <section id="content">
         
         <?php include('partials/project/intro.php'); ?>
+        <?php include('partials/project/page-content.php'); ?>
 
+        <svg version="1.1" class="side-left" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 717 2414" style="enable-background:new 0 0 717 2414;" xml:space="preserve"><polygon points="127.49,0 0,0 0,2414 717,1913.46 "/></svg>
     </section>
     <!-- /SECTION -->
 
