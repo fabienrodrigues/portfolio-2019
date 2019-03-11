@@ -105,6 +105,29 @@
     <link rel="icon" type="image/png" sizes="228x228" href="<?php echo baseUrl('medias/components/images/favicons/coast-228x228.png'); ?>">
     <meta name="msapplication-TileColor" content="#fff">
     <meta name="msapplication-TileImage" content="<?php echo baseUrl('medias/components/images/favicons/mstile-144x144.png'); ?>">
+
+
+    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+        "palette": {
+            "popup": {
+            "background": "#282425"
+            },
+            "button": {
+            "background": "#e82d43"
+            }
+        },
+        "content": {
+            "message": "Ce site utilise des cookies pour améliorer votre expérience de navigation et vous offrir un service plus personnalisé. En poursuivant votre navigation sur ce site, vous acceptez l’utilisation des cookies.",
+            "dismiss": "Accepter",
+            "link": "Informations",
+            "href": "http://www.google.com/policies/technologies/cookies"
+        }
+    })});
+    </script>
 </head>
 
 <body class="no-touch">

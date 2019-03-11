@@ -32,16 +32,15 @@
     .button{
         margin-bottom: $spacerM;
 
+       
         .no-touch &:hover{
-            background-color: $primary;
+            background: $greyDark;
             color: $white;
 
-			&:before,
-			&:after{
-				background-color: $primary;
+            &:before,
+            &:after{
+                background: $greyDark;
             }
-            
-            box-shadow: 2px 2px 15px rgba(darken($primary, 10), 0.3);
         }
     }
 
@@ -70,6 +69,12 @@
 
 #page-content{
     position: relative;
+
+    .section{
+        &:last-child{
+            padding-top: 0;
+        }
+    }
 
     .column{
         width: 50%;
@@ -102,6 +107,18 @@
         width: 1px;
         height: $spacerS;
         margin: 0 auto $spacerS;
+    }
+
+    .button{
+        .no-touch &:hover{
+            background: $greyDark;
+            color: $white;
+
+            &:before,
+            &:after{
+                background: $greyDark;
+            }
+        }
     }
 }
 

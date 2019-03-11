@@ -9,8 +9,6 @@
 
     <div id="hobbies-grid" class="grid">
         <div class="grid-row">
-            <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/copeaux.jpg'); ?>" alt="" class="hobbie-background">
-
             <div class="content reverse-xs">
                 <div class="column left">
                     <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/img-left.jpg'); ?>" alt="" class="center">
@@ -71,8 +69,6 @@
 
 
         <div class="grid-row">
-            <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/copeaux.jpg'); ?>" alt="" class="hobbie-background">
-
             <div class="content reverse-xs">
                 <div class="column left">
                     <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/loisirs/img-right.jpg'); ?>" alt="">
@@ -90,9 +86,7 @@
                     </div>
     
                     <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/loisirs/img-left.jpg'); ?>" alt="">
-                </div>
-
-                
+                </div>        
             </div>
         </div>
     </div>
@@ -102,4 +96,7 @@
 
     <svg version="1.1" class="side-left-bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 518.4 1383.46" style="enable-background:new 0 0 518.4 1383.46;" xml:space="preserve"><polygon points="92.18,0 0,0 0,1383.46 518.4,1383.46 "/></svg>
     <svg version="1.1" class="side-right-bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 518.4 1383.46" style="enable-background:new 0 0 518.4 1383.46;" xml:space="preserve"><polygon points="92.18,0 0,0 0,1383.46 518.4,1383.46 "/></svg>
+    <svg version="1.1" class="shape-bottom" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 182 1129" style="enable-background:new 0 0 182 1129;">
+    <polygon points="0,1129 182,280 0,0 "/>
+    </svg>
 </div>
