@@ -19,6 +19,9 @@
     template('partials/start-body.php', $data);
 ?>
 
+<?php
+echo 'Current PHP version: '. Phpversion();
+?>
             
     <section id="content">
         

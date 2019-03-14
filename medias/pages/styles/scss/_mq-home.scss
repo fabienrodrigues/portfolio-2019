@@ -64,6 +64,7 @@
 
     #intro{    
         height: 60vh;
+        overflow: hidden;
 
         & &-content{
             #intro-text{
@@ -81,7 +82,9 @@
     }
 
     #portfolio{    
-        & &-content{    
+        & &-content{
+            margin: $spacerS -10px 0;
+
             .project-item{
                 width: 50%;
                 padding: 10px;
@@ -102,12 +105,21 @@
                 li{
                     h4{
                         width: auto;
-                        padding-left: $spacerS;
+                        padding-left: 14px;
+
+                        &:before{
+                            width: 30px;
+                        }
+
+                        &:after{
+                            left: -10px;
+                        }
                     }
 
                     .job-content{
                         width: 100%;
-                        padding-left: $spacerS;
+                        padding-top: 5px;
+                        padding-left: 14px;
                     }
                 }
             }

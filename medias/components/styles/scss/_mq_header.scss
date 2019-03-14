@@ -42,17 +42,16 @@
         padding: $spacerXS;
 
         .logo{
+            display: block;
             font-size: $fontM;
+        }
+
+        .navbar-toggle{
+            display: block;
         }
 
         .header-content{
             padding: 0;
-
-            .navbar-toggle{
-                display: block;
-                top: 10px;
-                right: 20px;
-            }
 
             .links-list{
                 display: none;

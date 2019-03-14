@@ -32,7 +32,7 @@ function template($template, array $data = [])
  * @param string $projectName
  * @return Object
  */
-function getProjectData(&$projectName)
+function getProjectData($projectName)
 {
     $filePath = __DIR__ . '/data/projects/' . $projectName . '.json';
     

@@ -2,7 +2,7 @@
     <div class="content">
         <h2>Mes loisirs</h2>
     
-        <p id="hobbies-intro">Je pense que pour s’épanouir et avancer sereinement dans son travail il faut parfois savoir décrocher, prendre un peu de recul et aller voir ce qui se passe autour de soi.<br>
+        <p id="hobbies-intro">Je pense que pour s’épanouir et avancer sereinement dans son travail il faut parfois savoir décrocher, prendre un peu de recul et aller voir ce qu'il se passe autour de soi.<br>
         Toutes nos expériences, quelles soient bonnes ou mauvaises, nous enseignent quelque chose et peuvent nous permettre d’en tirer profit dans son travail sans même y penser.<br>
         Voici donc quelques exemples de loisirs, activités, curiosités qui m’inspirent et me boostent en dehors de mes heures de boulot.</p>
     </div>

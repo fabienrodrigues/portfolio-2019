@@ -11,6 +11,7 @@
 	right: 0;
 	z-index: 100;
 	padding: 0 $spacerS;
+	overflow: hidden;
 	transition: background-color 0.25s ease;
 
 	.logo{
@@ -24,71 +25,70 @@
 		}
 	}
 
-	.header-content{
-		padding: $spacerS 0;
+	// OPEN CLOSE MENU MOBILE
+	.navbar-toggle{
+		background: none;
+		width: 32px;
+		height: 42px;
+		display: none;
+		position: absolute;
+		top: 10px;
+		right: $spacerXS;
+		z-index: 110;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		cursor: pointer;
+		@include easeInOut(0.2s);
 
-		// OPEN CLOSE MENU MOBILE
-		.navbar-toggle{
-			background: none;
-			width: 42px;
-			height: 42px;
-			display: none;
+		.icon-bar{
+			background: $white;
+			display: block;
+			width: 100%;
+			height: 2px;
 			position: absolute;
-			top: 30px;
-			right: $spacerS;
-			z-index: 110;
-			margin: 0;
-			padding: 0;
-			border: 0;
-			cursor: pointer;
+			right: 0;
 			@include easeInOut(0.2s);
 
+			&:first-child{
+				top: 9px;
+				transform-origin: left top;
+			}
+
+			&:nth-child(2){
+				top: 18px;
+			}
+
+			&:last-child{
+				bottom: 13px;
+				transform-origin: left bottom;
+			}
+		}
+
+		.no-touch &:hover{
 			.icon-bar{
-				background: $white;
-				display: block;
-				width: 100%;
-				height: 2px;
-				position: absolute;
-				right: 0;
-				@include easeInOut(0.2s);
-
-				&:first-child{
-					top: 9px;
-					transform-origin: left top;
-				}
-
 				&:nth-child(2){
-					top: 18px;
+					width: 95%;
 				}
 
 				&:last-child{
-					bottom: 13px;
-					transform-origin: left bottom;
+					width: 90%;
 				}
-			}
-
-			.no-touch &:hover{
-				.icon-bar{
-					&:nth-child(2){
-						width: 95%;
-					}
-	
-					&:last-child{
-						width: 90%;
-					}
-				}
-			}
-
-			&:focus{
-				outline: none;
-				border: 0;
 			}
 		}
+
+		&:focus{
+			outline: none;
+			border: 0;
+		}
+	}
+
+	.header-content{
+		padding: $spacerS 0;
 
 		.links-list{
 			padding: 0;
 			display: flex;
-			//opacity: 0;
 			@include fontBd;
 			font-size: $fontS;
 			text-transform: uppercase;
@@ -127,17 +127,6 @@
 			}
 		}
 	}
-		
-
-	.filter{
-		background: rgba(0,0,0,0.5);
-		position: fixed;
-		top: $headerHeight;
-		left: 0;
-		bottom: 0;
-		width: 50%;
-		display: none;
-	}
 
 
 	&.forced ~ #content{
@@ -152,13 +141,14 @@
 			color: $primary;
 			letter-spacing: -0.025em;
 		}
+		
+		.navbar-toggle{
+			.icon-bar{
+				background: $primary;
+			}
+		}
 
 		.header-content{
-			.navbar-toggle{
-				.icon-bar{
-					background: $primary;
-				}
-			}
 
 			.links-list{	
 				li{					
@@ -174,23 +164,13 @@
 		}
 	}
 
-	&.open .header-content{
-		.links-list{
-			opacity: 1;
-			pointer-events: initial;
-
-			li{
-				opacity: 1;
-				transform: translateY(0);
-			}
-		}
-
+	&.open{
 		// OPEN CLOSE MENU MOBILE
 		.navbar-toggle{
 			.icon-bar{
 				&:first-child{
 					top: 11px;
-					transform: rotate(45deg) translate(-1px, -9px);
+					transform: rotate(45deg) translate(2px, -9px);
 				}
 				&:nth-child(2){
 					width: 100%;
@@ -198,7 +178,7 @@
 				}
 				&:last-child{
 					width: 100%;
-					transform: rotate(-45deg) translate(0px, 8px);
+					transform: rotate(-45deg) translate(4px, 6px);
 				}
 			}
 
@@ -214,6 +194,13 @@
 				}
 			}
 		}
+
+		.header-content{
+			.links-list{
+				opacity: 1;
+				pointer-events: initial;
+			}
+		}	
 	}
 }
 /* --- /HEADER --- */
