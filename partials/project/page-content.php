@@ -27,7 +27,7 @@
 
 <div id="portfolio" class="section">
     <div class="content">
-        <h3 id="portfolio-intro">Les derniers projets sur lesquels j'ai travaillé</h3>
+        <h3 id="portfolio-intro">Les derniers projets développés</h3>
     
         <div id="portfolio-content">
             <?php

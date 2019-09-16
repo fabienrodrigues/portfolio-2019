@@ -17,10 +17,10 @@
                         <p>Depuis décembre 2011<br>
                         <br>
                         <strong>Développeur front-end</strong><br>
-                        - Développement front-end pour des projets utilisant le CMS Drupal ou Wordpress ( Centrale Supélec, Isatech, Bonduelle Food Service ) <br>
+                        - Développement front-end pour des projets utilisant les CMS Wordpress, Prestashop ou Drupal ( Serioustoys, Nacon Gaming, Plaine Images, Bonduelle Food Service ) <br>
                         - Intégration / animation de sites liées aux opérations commerciales ( Leroy Merlin, Orange )<br>
                         - Intégration de chaînes youtube ( Leroy Merlin, Decathlon, Oscaro )<br>
-                        - Intégration de sites e-commerce ( Drakerz Confrontation, O’sushi, Flexico, Isatech )<br>
+                        - Intégration de sites e-commerce ( Serioustoys, O’sushi, Flexico, Isatech )<br>
                         - Intégration de jeux facebook ( Decathlon, Leroy Merlin )<br>
                         - Intégration d’e-mailing ( Leroy Merlin, Orange )</p>
                     </div>
