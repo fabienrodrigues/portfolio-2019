@@ -1,0 +1,26 @@
+// --- VENDORS ---
+    // ANIMATE ON SCROLL
+    @import '../../node_modules/aos/dist/aos.css';
+
+
+// --- SITE ---
+    // GLOBAL
+    @import "./components/colors";
+    @import "./components/bootstrap_grid";
+    @import "./components/mixins";
+    @import "./components/resets";
+    @import "./components/variables";
+    @import "./components/texts";
+    @import "./components/utils";
+    @import "./components/base";
+    @import "./components/header";
+    @import "./components/commons";
+    @import "./components/buttons";
+    @import "./components/icon";
+    @import "./components/footer";
+    @import "./components/portfolio";
+    @import "./components/aos"; //override AOS plugin style
+
+    // PAGES
+    @import "./pages/home";
+    @import "./pages/project";

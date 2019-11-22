@@ -1,0 +1,85 @@
+/* --- FOOTER --- */
+	footer{
+		background: $greyDark;
+		position: relative;
+
+		ul{
+			display: flex;
+			justify-content: center;
+			flex-wrap: wrap;
+
+			li{
+				width: 100%;
+				margin-bottom: $spacerS;
+				display: flex;
+				justify-content: center;
+
+				&:last-child{
+					margin-bottom: 0;
+				}
+
+				.button{
+					width: 262px;
+					height: 40px;
+					display: flex;
+					align-items: center;
+					padding-left: 60px;
+
+					.icon{
+						position: absolute;
+						left: 20px;
+
+						.isChrome &{
+							margin-top: -2px;
+						}
+
+						&.email{
+							width: 27px;
+							height: 18px;
+						}
+						&.phone{
+							width: 20px;
+							height: 33px;
+							left: 25px;
+
+							.isChrome &{
+								margin-top: -1px;
+							}
+						}
+						&.linkedin{
+							width: 24px;
+							height: 24px;
+							left: 22px;
+						}
+						&.github{
+							width: 26px;
+							height: 25px;
+							left: 21px;
+						}
+					}
+				}
+			}
+		}
+
+
+		.side-left{
+			fill: rgba($white, 0.02);
+			width: auto;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			transform: translateX(-16%);
+		}
+	
+		.side-right{
+			fill: rgba($white, 0.03);
+			width: auto;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			right: 0;
+			transform: scaleX(-1);
+		}
+	}
+/* --- /FOOTER --- */

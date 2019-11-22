@@ -1,31 +1,32 @@
 {
-    "title": "La Plaine Images",
-    "metaDescription": "Plaine Images - Le site d’excellence dédié aux industries créatives",
-    "intro": "Développement Front-end du site de la<strong>Plaine Images</strong> avec le CMS Wordpress.",
-    "websiteLink": "https://www.plaine-images.com",
-    "thumbnail": "medias/pages/images/projects/plaine-images/thumbnail.jpg",
+    "metaTitle": "Développement Front-end du site vitrine sous Wordpress de Plaine Images",
+    "metaDescription": "Développement Front-end du site vitrine sous Wordpress de Plaine Images - Le site d’excellence dédié aux industries créatives",
+    "title": "Plaine Images",
+    "intro": "Développement Front-end du site de <strong>Plaine Images</strong> avec le CMS Wordpress.",
+    "websiteLink": "https://www.plaine-images.fr",
+    "thumbnail": "dist/images/pages/projects/plaine-images/thumbnail.jpg",
     "logo": {
-        "src": "medias/pages/images/projects/plaine-images/logo.svg",
+        "src": "dist/images/pages/projects/plaine-images/logo.svg",
         "width": "348px"
     },
     "firstimg": {
-        "src": "medias/pages/images/projects/plaine-images/intro.jpg",
+        "src": "dist/images/pages/projects/plaine-images/intro.jpg",
         "alt": "Plaine Images"
     },
     "page1": {
-        "src": "medias/pages/images/projects/plaine-images/location-espace.jpg",
-        "alt": "Plaine Images, location d'espaces privatifs"
+        "src": "dist/images/pages/projects/plaine-images/location-espace.jpg",
+        "alt": "Plaine Images, Location d'espaces privatifs"
     },
     "page2": {
-        "src": "medias/pages/images/projects/plaine-images/emploi.jpg",
-        "alt": "Plaine Images, recherche d'emploi"
+        "src": "dist/images/pages/projects/plaine-images/emploi.jpg",
+        "alt": "Plaine Images, Recherche d'emploi"
     },
     "iphone": {
-        "src": "medias/pages/images/projects/plaine-images/home-mobile.png",
+        "src": "dist/images/pages/projects/plaine-images/home-mobile.png",
         "alt": "Plaine Images - Home sur mobile"
     },
     "ipad": {
-        "src": "medias/pages/images/projects/plaine-images/entreprise-ipad.png",
+        "src": "dist/images/pages/projects/plaine-images/entreprise-ipad.png",
         "alt": "Plaine Images - Page entreprise sur tablette"
     }
 }

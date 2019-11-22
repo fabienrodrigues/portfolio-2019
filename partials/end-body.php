@@ -4,13 +4,6 @@
     
         <!-- JS
         ================================================== -->
-        <script src="<?php echo baseUrl('/'); ?>medias/components/scripts/min/main.js"></script>
-        <?php
-            if(isset($jsFiles))
-            {
-                foreach($jsFiles as $jsFile)
-                    echo('<script src="' . $jsFile . '"></script>');
-            }
-        ?>
+        <script src="<?php echo baseUrl('/'); ?>dist/js/main.min.js"></script>
     </body>
 </html>

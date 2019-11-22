@@ -1,31 +1,32 @@
 {
-    "title": "SERIOUS TOYS",
-    "metaDescription": "SERIOUS TOYS - Figurines de collection de qualité",
+    "metaTitle": "Développement Front-end sous Prestashop de SERIOUS TOYS | Fabien Rodrigues",
+    "metaDescription": "Développement Front-End sous Prestashop du site SERIOUS TOYS - Figurines de collection de qualité",
+    "title": "Serious Toys",
     "intro": "Développement Front-End du site <strong>SERIOUS TOYS</strong>. <br>Développé sous Prestashop, SERIOUS TOYS est un site de vente de figurines et statues de qualité issues de la Pop Culture : Manga, Cinéma, Séries, Jeux Vidéo. <br> Son atout majeur face à la concurrence : la visualisation des figurines à 360°",
     "websiteLink": "https://www.serioustoys.fr/",
-    "thumbnail": "medias/pages/images/projects/serioustoys/thumbnail.jpg",
+    "thumbnail": "dist/images/pages/projects/serioustoys/thumbnail.jpg",
     "logo": {
-        "src": "medias/pages/images/projects/serioustoys/logo.svg",
+        "src": "dist/images/pages/projects/serioustoys/logo.svg",
         "width": "350px"
     },
     "firstimg": {
-        "src": "medias/pages/images/projects/serioustoys/intro.jpg",
+        "src": "dist/images/pages/projects/serioustoys/intro.jpg",
         "alt": "serioustoys - Figurines de collection de qualité"
     },
     "page1": {
-        "src": "medias/pages/images/projects/serioustoys/home-full.jpg",
+        "src": "dist/images/pages/projects/serioustoys/home-full.jpg",
         "alt": "serioustoys - Figurines de collection de qualité"
     },
     "page2": {
-        "src": "medias/pages/images/projects/serioustoys/categorie-full.jpg",
+        "src": "dist/images/pages/projects/serioustoys/categorie-full.jpg",
         "alt": "serioustoys - Catégorie"
     },
     "iphone": {
-        "src": "medias/pages/images/projects/serioustoys/fiche-produit-mobile.png",
+        "src": "dist/images/pages/projects/serioustoys/fiche-produit-mobile.png",
         "alt": "serioustoys - Fiche produit"
     },
     "ipad": {
-        "src": "medias/pages/images/projects/serioustoys/team-ipad.png",
-        "alt": "serioustoys - l'équipe"
+        "src": "dist/images/pages/projects/serioustoys/team-ipad.png",
+        "alt": "serioustoys - L'équipe"
     }
 }

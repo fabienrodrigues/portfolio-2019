@@ -1,0 +1,89 @@
+// portfolio thumbs grid
+#portfolio{
+    #portfolio-content{
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        z-index: 3;
+        margin: $spacerS ($spacerXS * -1) 0;
+
+        @include media-breakpoint-down(sm) {
+            margin: $spacerS -10px 0;
+        }
+
+        .project-item{
+            width: 33.333%;
+            overflow: hidden;
+            position: relative;
+            padding: $spacerXS;
+
+            @include media-breakpoint-down(sm) {
+                width: 50%;
+                padding: 10px;
+            }
+
+            .item-content{
+                width: 100%;
+                display: flex;
+            }
+
+            .more{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                z-index: 5;
+                font-size: $fontL;
+                color: $white;
+                transform: translate(-50%, -50%) scale(0);
+                transition: all 0.2s ease;
+                transition-delay: 0s;
+
+                .more-text{
+                    opacity: 0;
+                    transform: translateY(16px);
+                    transition: all 0.2s ease;
+                    transition-delay: 0s;
+                }
+            }
+
+            .item-overlay{
+                position: absolute;
+                top: $spacerXS;
+                right: $spacerXS;
+                width: calc(100% - #{$spacerS});
+                height: calc(100% - #{$spacerS});
+                overflow: hidden;
+
+                img{
+                    display: block;
+                    width: 100%;
+                    height: 100%;
+                    transform: translateX(100%);
+                    @include easeInOutCirc(0.25s, transform);
+                }
+            }
+
+            .no-touch &:hover{
+                .more{
+                    transform: translate(-50%, -50%) scale(1);
+
+                    .more-text{
+                        opacity: 1;
+                        transform: translateY(0);
+                        transition-delay: 0.25s;
+                    }
+                }
+
+                .item-overlay{
+                    &:before{
+                        transform: translateX(-5%);
+                    }
+
+                    img{
+                        transform: translateX(0%);
+                    }
+                }
+            }
+        }
+    }
+}

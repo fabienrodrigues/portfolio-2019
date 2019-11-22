@@ -5,6 +5,7 @@ RewriteEngine On
 # Forcage HTTPS
 RewriteCond %{HTTP_HOST} !^localhost
 RewriteCond %{HTTP_HOST} !^192.168.0.16
+RewriteCond %{HTTP_HOST} !^dev.fabienrodrigues.com
 RewriteCond %{HTTPS} off
 RewriteRule .* https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
 

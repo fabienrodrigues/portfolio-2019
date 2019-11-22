@@ -1,31 +1,32 @@
 {
+    "metaTitle": "Développement Front-end du site vitrine sous Wordpress de Nacon Gaming",
+    "metaDescription": "Développement Front-end du site vitrine sous Wordpress de Nacon Gaming - Révèle Ton Niveau de Jeu",
     "title": "Nacon Gaming",
-    "metaDescription": "Nacon Gaming - Révèle Ton Niveau de Jeu",
     "intro": "Développement Front-end du site vitrine de <strong>Nacon Gaming</strong>. Marque d'accessoires gaming de <strong>Bigben</strong>.<br> Développement réalisé via le CMS Wordpress",
     "websiteLink": "https://www.nacongaming.com",
-    "thumbnail": "medias/pages/images/projects/nacon/thumbnail.jpg",
+    "thumbnail": "dist/images/pages/projects/nacon/thumbnail.jpg",
     "logo": {
-        "src": "medias/pages/images/projects/nacon/logo.svg",
+        "src": "dist/images/pages/projects/nacon/logo.svg",
         "width": "348px"
     },
     "firstimg": {
-        "src": "medias/pages/images/projects/nacon/intro.jpg",
+        "src": "dist/images/pages/projects/nacon/intro.jpg",
         "alt": "Nacon Gaming - Home"
     },
     "page1": {
-        "src": "medias/pages/images/projects/nacon/produit-full.jpg",
+        "src": "dist/images/pages/projects/nacon/produit-full.jpg",
         "alt": "Nacon Gaming - Page produit"
     },
     "page2": {
-        "src": "medias/pages/images/projects/nacon/my-nacon-full.jpg",
+        "src": "dist/images/pages/projects/nacon/my-nacon-full.jpg",
         "alt": "Nacon Gaming - Home de MyNacon"
     },
     "iphone": {
-        "src": "medias/pages/images/projects/nacon/my-nacon-mobile.png",
+        "src": "dist/images/pages/projects/nacon/my-nacon-mobile.png",
         "alt": "Nacon Gaming - Actualités"
     },
     "ipad": {
-        "src": "medias/pages/images/projects/nacon/news-ipad.png",
+        "src": "dist/images/pages/projects/nacon/news-ipad.png",
         "alt": "Nacon Gaming - Détail d'une actualité"
     }
 }

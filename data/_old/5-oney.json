@@ -3,29 +3,29 @@
     "metaDescription": "Oney 3x 4x",
     "intro": "Développement du site <strong>Oney 3x 4x</strong> avec le CMS Wordpress. Site multilingue et responsive.",
     "websiteLink": "https://www.oney.be",
-    "thumbnail": "medias/pages/images/projects/oney/thumbnail.jpg",
+    "thumbnail": "dist/images/pages/projects/oney/thumbnail.jpg",
     "logo": {
-        "src": "medias/pages/images/projects/oney/logo.png",
+        "src": "dist/images/pages/projects/oney/logo.png",
         "width": ""
     },
     "firstimg": {
-        "src": "medias/pages/images/projects/oney/intro.jpg",
+        "src": "dist/images/pages/projects/oney/intro.jpg",
         "alt": "Oney 3x 4x"
     },
     "page1": {
-        "src": "medias/pages/images/projects/oney/etape1.jpg",
+        "src": "dist/images/pages/projects/oney/etape1.jpg",
         "alt": "Oney 3x 4x, etape 1 du paiement"
     },
     "page2": {
-        "src": "medias/pages/images/projects/oney/faq.jpg",
+        "src": "dist/images/pages/projects/oney/faq.jpg",
         "alt": "Oney 3x 4x, Foire aux questions"
     },
     "iphone": {
-        "src": "medias/pages/images/projects/oney/iphone.png",
+        "src": "dist/images/pages/projects/oney/iphone.png",
         "alt": "Oney 3x 4x - Espace partenaires sur mobile"
     },
     "ipad": {
-        "src": "medias/pages/images/projects/oney/ipad.png",
+        "src": "dist/images/pages/projects/oney/ipad.png",
         "alt": "Oney 3x 4x - Espace partenaires sur tablette"
     }
 }

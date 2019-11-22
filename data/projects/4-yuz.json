@@ -1,31 +1,32 @@
 {
+    "metaTitle": "Développement Front-end du site vitrine sous Wordpress de Yuz",
+    "metaDescription": "Développement du site vitrine sous Wordpress de YUZ - Digital Designers",
     "title": "Yuz",
-    "metaDescription": "YUZ - Digital Designers",
     "intro": "Développement du site <strong>YUZ</strong> avec le CMS Wordpress.<br> J’ai développé ce site depuis un thème vierge pour y inclure au fur et à mesure uniquement les fonctionnalités nécessaires à son bon fonctionnement.<br> Il en résulte un site léger (2.3 mo pour la home) et rapide à charger.",
     "websiteLink": "https://www.yuz.fr",
-    "thumbnail": "medias/pages/images/projects/yuz/thumbnail.jpg",
+    "thumbnail": "dist/images/pages/projects/yuz/thumbnail.jpg",
     "logo": {
-        "src": "medias/pages/images/projects/yuz/logo.svg",
+        "src": "dist/images/pages/projects/yuz/logo.svg",
         "width": "130px"
     },
     "firstimg": {
-        "src": "medias/pages/images/projects/yuz/intro.jpg",
+        "src": "dist/images/pages/projects/yuz/intro.jpg",
         "alt": "YUZ - Digital Designers"
     },
     "page1": {
-        "src": "medias/pages/images/projects/yuz/home-full.jpg",
+        "src": "dist/images/pages/projects/yuz/home-full.jpg",
         "alt": "YUZ - Digital Designers, présentation"
     },
     "page2": {
-        "src": "medias/pages/images/projects/yuz/bonduelle-full.jpg",
+        "src": "dist/images/pages/projects/yuz/bonduelle-full.jpg",
         "alt": "YUZ - Bonduelle Food Service"
     },
     "iphone": {
-        "src": "medias/pages/images/projects/yuz/iphone.png",
+        "src": "dist/images/pages/projects/yuz/iphone.png",
         "alt": "YUZ - Tour de France"
     },
     "ipad": {
-        "src": "medias/pages/images/projects/yuz/ipad.png",
+        "src": "dist/images/pages/projects/yuz/ipad.png",
         "alt": "YUZ - Orange Tutoriels"
     }
 }

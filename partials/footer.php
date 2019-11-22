@@ -1,37 +1,37 @@
     <footer id="footer" class="section">
         <div class="content">
-            <h2>Contacts</h2>
+            <h2 data-aos="fade-up" data-aos-delay="0">Contacts</h2>
             
             <div id="contacts">
                 <ul>
-                    <li>
+                    <li data-aos="fade-up" data-aos-delay="50">
                         <a href="m&#97;ilto&#58;%66&#97;b&#105;en&#46;r%6Fd%72i%6&#55;&#37;75&#101;&#115;%40&#37;68&#111;tma&#105;%6C&#46;f%72" class="button primary">
                             <svg class="icon white email" aria-hidden="true">
-                                <use xlink:href="<?php echo baseUrl('/medias/components/images/icons/sprite.svg#email'); ?>"></use>
+                                <use xlink:href="<?php echo baseUrl('/dist/images/components/icons/sprite.svg#email'); ?>"></use>
                             </svg>
                             &#102;&#97;bien&#46;rodrigues&#64;h&#111;tmail&#46;f&#114;
                         </a>
                     </li>
-                    <li>
+                    <li data-aos="fade-up" data-aos-delay="100">
                         <a href="tel:&#48;&#54;&#56;&#49;&#56;&#57;&#53;&#52;&#53;&#50;" class="button primary">
                             <svg class="icon white phone" aria-hidden="true">
-                                <use xlink:href="<?php echo baseUrl('/medias/components/images/icons/sprite.svg#phone'); ?>"></use>
+                                <use xlink:href="<?php echo baseUrl('/dist/images/components/icons/sprite.svg#phone'); ?>"></use>
                             </svg>
                             &#48;&#54;&nbsp;&#56;&#49;&nbsp;&#56;&#57;&nbsp;&#53;&#52;&nbsp;&#53;&#50;
                         </a>
                     </li>
-                    <li>
-                        <a href="www.linkedin.com/in/fabien-rodrigues-1a337128" target="_blank" class="button primary">
+                    <li data-aos="fade-up" data-aos-delay="150">
+                        <a href="https://www.linkedin.com/in/fabien-rodrigues-1a337128" target="_blank" rel="noreferrer" class="button primary">
                             <svg class="icon white linkedin" aria-hidden="true">
-                                <use xlink:href="<?php echo baseUrl('/medias/components/images/icons/sprite.svg#linkedin'); ?>"></use>
+                                <use xlink:href="<?php echo baseUrl('/dist/images/components/icons/sprite.svg#linkedin'); ?>"></use>
                             </svg>
                             Mon profil LinkedIn
                         </a>
                     </li>
-                    <li>
-                        <a href="https://github.com/fabienrodrigues" target="_blank" class="button primary">
+                    <li data-aos="fade-up" data-aos-delay="200">
+                        <a href="https://github.com/fabienrodrigues" target="_blank" rel="noreferrer" class="button primary">
                             <svg class="icon white github" aria-hidden="true">
-                                <use xlink:href="<?php echo baseUrl('/medias/components/images/icons/sprite.svg#github'); ?>"></use>
+                                <use xlink:href="<?php echo baseUrl('/dist/images/components/icons/sprite.svg#github'); ?>"></use>
                             </svg>
                             Mon profil Github
                         </a>

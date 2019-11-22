@@ -1,31 +1,32 @@
 {
+    "metaTitle": "Développement Front-end du site vitrine sous Drupal de Verescence",
+    "metaDescription": "Développement Front-end du site vitrine sous Drupal de Verescence - Leader mondial du flaconnage en verre",
     "title": "Verescence",
-    "metaDescription": "Verescence - Leader mondial du flaconnage en verre",
     "intro": "Développement Front-end du site vitrine du leader mondial du flaconnage en verre, innovants et respectueux de l’environnement. <br>Présentant l'entreprise, ses produits, ses engagements, etc. <br>Site réalisé via Drupal.",
     "websiteLink": "https://www.verescence.com/fr",
-    "thumbnail": "medias/pages/images/projects/verescence/thumbnail.jpg",
+    "thumbnail": "dist/images/pages/projects/verescence/thumbnail.jpg",
     "logo": {
-        "src": "medias/pages/images/projects/verescence/logo.svg",
+        "src": "dist/images/pages/projects/verescence/logo.svg",
         "width": "350px"
     },
     "firstimg": {
-        "src": "medias/pages/images/projects/verescence/intro.jpg",
+        "src": "dist/images/pages/projects/verescence/intro.jpg",
         "alt": "Verescence - Etapes de fabrication d'un flacon"
     },
     "page1": {
-        "src": "medias/pages/images/projects/verescence/expertises.jpg",
+        "src": "dist/images/pages/projects/verescence/expertises.jpg",
         "alt": "Verescence - Les expertises"
     },
     "page2": {
-        "src": "medias/pages/images/projects/verescence/collection.jpg",
+        "src": "dist/images/pages/projects/verescence/collection.jpg",
         "alt": "Verescence - La Collection"
     },
     "iphone": {
-        "src": "medias/pages/images/projects/verescence/iphone.png",
+        "src": "dist/images/pages/projects/verescence/iphone.png",
         "alt": "Verescence - Détail d'un flacon"
     },
     "ipad": {
-        "src": "medias/pages/images/projects/verescence/ipad.png",
+        "src": "dist/images/pages/projects/verescence/ipad.png",
         "alt": "Verescence - L'entreprise"
     }
 }

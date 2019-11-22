@@ -12,15 +12,11 @@
     }
 
     $data = [
-        'cssFiles' => [baseUrl('/medias/pages/styles/css/project.css')],
-        'jsFiles' => [baseUrl('/medias/pages/scripts/min/project.js')],
-        'title' => $projectData->title
+        'title' => $projectData->metaTitle,
+        'description' => $projectData->metaDescription,
+        'bodyClass' => 'project'
     ];    
     template('partials/start-body.php', $data);
-?>
-
-<?php
-echo 'Current PHP version: '. Phpversion();
 ?>
             
     <section id="content">

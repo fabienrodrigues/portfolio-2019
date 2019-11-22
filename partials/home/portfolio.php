@@ -1,7 +1,7 @@
 <div id="portfolio" class="section">
     <div class="content">
-        <h2>Portfolio</h2>
-        <p id="portfolio-intro">Les derniers projets sur lesquels j'ai travaillé</p>
+        <h2 data-aos="fade-up" data-aos-delay="0">Portfolio</h2>
+        <p data-aos="fade-up" data-aos-delay="100" id="portfolio-intro">Les derniers projets sur lesquels j'ai travaillé</p>
     
         <div id="portfolio-content">
             <?php
@@ -9,6 +9,7 @@
                 $files = scandir($folder, SCANDIR_SORT_ASCENDING); // SCANDIR_SORT_ASCENDING pour un tri alphanumérique croissant
     
                 if($files) :
+                    $count = 0;
                     foreach ($files as $fileName) :
                         $matches = [];
                         // recupere le nom du fichier json
@@ -16,8 +17,10 @@
                             $projectName = $matches[1];
                             $projectData = getProjectData($projectName);
 
-                            include('partials/home/item-portfolio.php'); 
+                            include('partials/item-portfolio.php'); 
                         endif;
+
+                        $count++;
                     endforeach;
                 endif;
             ?>

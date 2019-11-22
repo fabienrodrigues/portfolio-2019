@@ -1,0 +1,67 @@
+.button{
+	display: inline-block;
+	position: relative;
+	padding: 5px 20px;
+	text-decoration: none;
+	color: $white;
+	transition: all 0.25s ease;
+
+	.isChrome &{
+		padding-top: 7px;
+	}
+
+	&:before,
+	&:after{
+		content: '';
+		width: 20px;
+		height: 100%;
+		position: absolute;
+		top: 0;
+		transform: skew(-10deg);
+		transition: background-color 0.25s ease;
+	}
+	&:before{
+		left: -4px;
+	}
+	&:after{
+		right: -4px;
+	}
+
+	.icon{
+		transition: fill 0.25s ease;
+	}
+
+
+	@each $colorName, $color in $colors {
+		&.#{$colorName} {
+			background-color: $color;
+
+			&:before,
+			&:after{
+				background-color: $color;
+			}
+
+			.no-touch &:hover{
+				background: $white;
+				color: $color;
+
+				&:before,
+				&:after{
+					background: $white;
+				}
+
+				.icon{
+					fill: $color;
+				}
+			}
+		}
+	}
+
+	&.white{
+		color: $primary;
+
+		.no-touch &:hover{
+			color: $primaryDark;
+		}
+	}
+}

@@ -1,31 +1,32 @@
 {
+    "metaTitle": "Développement Front-end de Superfilm",
+    "metaDescription": "Développement Front-end du site Superfilm - Simplifiez la production de vos films créatifs",
     "title": "Superfilm",
-    "metaDescription": "Superfilm - Simplifiez la production de vos films créatifs",
     "intro": "Développement Front-End du site <strong>Superfilm</strong>. <br><strong>Superfilm</strong> est une plateforme web permettant de configurer soi-même ses besoins pour un projet vidéo. <br>Un reportage, un trailer, motion design. Avec voix off ou non, éclairage particulier, drone, etc. <br>Un devis est automatiquement calculé suivant les options sélectionnées et visible directement par l'utilisateur.",
     "websiteLink": "https://www.superfilm.fr",
-    "thumbnail": "medias/pages/images/projects/superfilm/thumbnail.jpg",
+    "thumbnail": "dist/images/pages/projects/superfilm/thumbnail.jpg",
     "logo": {
-        "src": "medias/pages/images/projects/superfilm/logo.svg",
+        "src": "dist/images/pages/projects/superfilm/logo.svg",
         "width": "350px"
     },
     "firstimg": {
-        "src": "medias/pages/images/projects/superfilm/intro.jpg",
+        "src": "dist/images/pages/projects/superfilm/intro.jpg",
         "alt": "Superfilm - Simplifiez la production de vos films créatifs"
     },
     "page1": {
-        "src": "medias/pages/images/projects/superfilm/home-full.jpg",
+        "src": "dist/images/pages/projects/superfilm/home-full.jpg",
         "alt": "Superfilm - Simplifiez la production de vos films créatifs"
     },
     "page2": {
-        "src": "medias/pages/images/projects/superfilm/categorie-full.jpg",
+        "src": "dist/images/pages/projects/superfilm/categorie-full.jpg",
         "alt": "Superfilm - Catégorie Reportage"
     },
     "iphone": {
-        "src": "medias/pages/images/projects/superfilm/devis-mobile.png",
+        "src": "dist/images/pages/projects/superfilm/devis-mobile.png",
         "alt": "Superfilm - Catégorie Reportage"
     },
     "ipad": {
-        "src": "medias/pages/images/projects/superfilm/configuration-ipad.png",
+        "src": "dist/images/pages/projects/superfilm/configuration-ipad.png",
         "alt": "Superfilm - Configuration"
     }
 }

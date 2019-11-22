@@ -1,0 +1,222 @@
+.project{
+    #intro{
+        position: relative;
+        z-index: 10;
+        text-align: center;
+    
+        h1{
+            display: inline-block;
+            position: relative;
+            margin-bottom: $spacerS;
+    
+            &:before{
+                content: '';
+                background: $greyDark;
+                width: 24px;
+                height: 2px;
+                position: absolute;
+                bottom: 3px;
+                left: 0;
+            }
+
+            @include media-breakpoint-down(sm) {
+                font-size: 30px;
+            }
+        }
+    
+        p{
+            margin-bottom: $spacerM;
+        }
+    
+        .button{
+            margin-bottom: $spacerM;
+    
+           
+            .no-touch &:hover{
+                background: $greyDark;
+                color: $white;
+    
+                &:before,
+                &:after{
+                    background: $greyDark;
+                }
+            }
+        }
+    
+        img{
+            display: block;
+            max-width: 100%;
+
+            @include media-breakpoint-down(sm) {
+                margin: 0 auto;
+            }
+        }
+    
+        .grid-row{
+            display: flex;
+            align-items: center;
+            width: 100%;
+
+            @include media-breakpoint-down(sm) {
+                display: block;
+            }
+        }
+
+        .project-logo,
+        .project-first-screen{
+            padding: 0 $spacerXS;
+
+            @include media-breakpoint-down(sm) {
+                padding: 0;
+            }
+        }
+    
+        .project-logo{
+            width: 25%;
+
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+                margin-bottom: $spacerXS;
+            }
+        }
+    
+        .project-first-screen{
+            width: 75%;
+
+            @include media-breakpoint-down(sm) {
+                width: 100%;
+                margin-bottom: 0;
+            }
+        }
+    }
+    
+    
+    #page-content{
+        position: relative;
+    
+        .section{
+            &:last-child{
+                padding-top: 0;
+            }
+        }
+    
+        .column{
+            width: 50%;
+            position: relative;
+            z-index: 10;
+            padding: 0 $spacerXS;
+    
+            img{
+                display: block;
+                max-width: 100%;
+                margin: 0 auto $spacerL;
+    
+                &:last-child{
+                    margin-bottom: 0;
+                }
+
+                @include media-breakpoint-down(sm) {
+                    display: block;
+                    max-width: 100%;
+                    margin: 0 auto $spacerM;
+                }
+            }
+    
+            &.left{
+                @include media-breakpoint-down(sm) {
+                    padding-left: 0;
+                }
+
+                img{
+                    &:first-child{
+                        margin-top: $spacerL;
+
+                        @include media-breakpoint-down(sm) {
+                            margin-top: $spacerM;
+                        }
+                    }
+                }
+            }
+
+            &.right{
+                @include media-breakpoint-down(sm) {
+                    padding-right: 0;
+                }
+            }
+        }
+    
+        .split{
+            background: $white;
+            width: 1px;
+            height: $spacerS;
+            margin: 0 auto $spacerS;
+        }
+    
+        .button{
+            .no-touch &:hover{
+                background: $greyDark;
+                color: $white;
+    
+                &:before,
+                &:after{
+                    background: $greyDark;
+                }
+            }
+        }
+    }
+    
+    #portfolio{
+        background-color: $primary;
+        overflow: hidden;
+    
+        #portfolio-intro{
+            text-align: center;
+            color: $white;
+    
+            &:after{
+                background-color: $white;
+            }
+        }
+    
+        .side-left{
+            fill: $white;
+        }
+    
+        .side-right{
+            fill: $white;
+            width: auto;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(50%, 20%) scaleX(-1) rotate(-10deg);
+        }
+
+        .side-left,
+        .side-right{
+            @include media-breakpoint-down(sm) {
+                display: none;
+            }
+        }
+    }
+    
+    
+    .side-left{
+        fill: $greyLight;
+        width: 25%;
+        height: auto;
+        position: absolute;
+        top: 35vh;
+        left: -5%;
+    }
+    
+    .bottom-shape{
+        fill: $primary;
+        width: 100%;
+        height: auto;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }    
+}

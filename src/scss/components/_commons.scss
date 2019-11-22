@@ -1,0 +1,76 @@
+*{
+    // Background: ;
+    // Dimensions: px / % / vw / vh;
+    // Position: px / % / vw / vh;
+    // Margins: px / % / vw / vh;
+    // Paddings: px / % / vw / vh;
+    // Borders: px;
+    // Font:;
+    // Font-size:;
+    // color: #;
+    // Text-transform:;
+    // Text-decoration:;
+    // proprietes CSS 3;
+    // Transitions;
+}
+
+
+
+
+// INVIEW
+.inview-stagger,
+.inview-single,
+.stagger{
+    opacity: 0;
+    transition: opacity 0.4s;
+
+    &.show{
+        opacity: 1;
+    }
+}
+
+.inview-stagger,
+.stagger{
+    @include stagger(0.09s);
+}
+
+
+.section{
+    position: relative;
+    padding: $spacerM $spacerS;
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    @include media-breakpoint-down(md) {
+        padding: $spacerS $spacerXS;
+    }
+
+    .content{
+        position: relative;
+        width: 80%;
+        z-index: 5;
+
+        @include media-breakpoint-down(md) {
+            width: 100%;
+        }
+
+        &.center{
+            text-align: center;
+        }
+    }
+
+    h2{
+        position: relative;
+        z-index: 3;
+        margin-bottom: 30px;
+        color: $primary;
+    }
+}
+
+.imgLiquid > img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

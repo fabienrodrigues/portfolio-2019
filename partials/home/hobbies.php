@@ -1,30 +1,36 @@
 <div id="hobbies" class="section">
     <div class="content">
-        <h2>Mes loisirs</h2>
+        <h2 data-aos="fade-up" data-aos-delay="0">Mes loisirs</h2>
     
-        <p id="hobbies-intro">Je pense que pour s’épanouir et avancer sereinement dans son travail il faut parfois savoir décrocher, prendre un peu de recul et aller voir ce qu'il se passe autour de soi.<br>
-        Toutes nos expériences, quelles soient bonnes ou mauvaises, nous enseignent quelque chose et peuvent nous permettre d’en tirer profit dans son travail sans même y penser.<br>
-        Voici donc quelques exemples de loisirs, activités, curiosités qui m’inspirent et me boostent en dehors de mes heures de boulot.</p>
+        <p data-aos="fade-up" data-aos-delay="100" id="hobbies-intro">Je pense que pour s’épanouir et avancer sereinement dans son travail il faut parfois savoir décrocher, prendre un peu de recul et aller voir ce qu'il se passe autour de soi.<br>
+        Toutes nos expériences, quelles soient bonnes ou mauvaises, nous enseignent quelque chose et peuvent nous permettre d’en tirer profit dans notre travail sans même y penser.<br>
+        Voici donc quelques exemples de loisirs, activités, curiosités qui m’inspirent et me boostent pendant mon temps libre.</p>
     </div>
 
     <div id="hobbies-grid" class="grid">
         <div class="grid-row">
             <div class="content reverse-xs">
-                <div class="column left">
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/img-left.jpg'); ?>" alt="" class="center">
+                <div class="column left" data-aos="fade-up" data-aos-delay="0">
+                    <div class="text-center">
+                        <div class="img-wrapper">
+                            <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/bois/img-left.jpg'); ?>" alt="">
+                        </div>
+                    </div>
                 </div>
     
                 <div class="column right">
-                    <h3>Le travail du bois</h3>
+                    <h3 data-aos="fade-up" data-aos-delay="100">Le travail du bois</h3>
                     
                     <div class="column-text">
-                        <p>La fierté de faire mes propres meubles, la précision, l’esthétique, l’organisation. <br>
+                        <p data-aos="fade-up" data-aos-delay="150">La fierté de faire mes propres meubles, la précision, l’esthétique, l’organisation. <br>
                         Toutes ces petites choses font que j’adore travailler le bois.</p>
         
-                        <div class="split"></div>
+                        <div class="split" data-aos="fade-up" data-aos-delay="200"></div>
                     </div>
     
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/bois/img-right.jpg'); ?>" alt="">
+                    <div class="img-wrapper" data-aos="fade-up" data-aos-delay="250">
+                        <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/bois/img-right.jpg'); ?>" alt="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -32,37 +38,45 @@
         <div class="grid-row">
             <div class="content">
                 <div class="column left">
-                    <h3>les matières, les couleurs, les formes</h3>
+                    <h3 data-aos="fade-up" data-aos-delay="0">les matières, les couleurs, les formes</h3>
                     
                     <div class="column-text">
-                        <p>Le bois, le carbone, l’aluminium, les textiles techniques...<br>
+                        <p data-aos="fade-up" data-aos-delay="50">Le bois, le carbone, l’aluminium, les textiles techniques...<br>
                         Allier la technique et l'esthétique, le beau et l'utile caractérisent ma vision des choses dans mon travail et plus généralement dans mon quotidien.</p>
-                        <div class="split"></div>
+                        <div class="split" data-aos="fade-up" data-aos-delay="100"></div>
                     </div>
                 </div>
             </div>
 
             <div class="content middle">
-                <div class="column left">
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-left2.jpg'); ?>" alt="" class="center">
+                <div class="column left" data-aos="fade-up" data-aos-delay="150">
+                    <div class="text-center">
+                        <div class="img-wrapper" data-aos="">
+                            <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/matieres/img-left2.jpg'); ?>" alt="" class="">
+                        </div>
+                    </div>
                 </div>
     
-                <div class="column right">
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-right1.jpg'); ?>" alt="">
+                <div class="column right" data-aos="fade-up" data-aos-delay="200">
+                    <div class="img-wrapper" data-aos="">
+                        <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/matieres/img-right1.jpg'); ?>" alt="">
+                    </div>
                 </div>
             </div>
 
             <div class="content middle">
                 <div class="column left">
-                        <div class="quote">
+                        <div class="quote" data-aos="fade-up" data-aos-delay="0">
                             <h3>Nos designs sont intemporels, intuitifs, minimalistes et centrés sur l’humain. <br>
                             Ils mettent l’accent sur la fonctionnalité et la simplicité.</h3>
-                        <div class="author">Arc'teryx</div>
+                        <div class="author" data-aos="fade-up" data-aos-delay="50">Arc'teryx</div>
                     </div>
                 </div>
 
                 <div class="column right">
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/matieres/img-left1.jpg'); ?>" alt="Arc'teryx" class="mtSpacerM">
+                    <div class="img-wrapper mtSpacerM" data-aos="fade-up" data-aos-delay="100">
+                        <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/matieres/img-left1.jpg'); ?>" alt="Arc'teryx" class="">
+                    </div>
                 </div>
             </div>
         </div>
@@ -71,21 +85,26 @@
         <div class="grid-row">
             <div class="content reverse-xs">
                 <div class="column left">
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/loisirs/img-right.jpg'); ?>" alt="">
-
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/loisirs/img-right2.jpg'); ?>" alt="">
+                    <div class="img-wrapper" data-aos="fade-up" data-aos-delay="0">
+                        <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/loisirs/img-right.jpg'); ?>" alt="">
+                    </div>
+                    <div class="img-wrapper" data-aos="fade-up" data-aos-delay="100">
+                        <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/loisirs/img-right2.jpg'); ?>" alt="">
+                    </div>
                 </div>
 
                 <div class="column right">
-                    <h3>Ma famille, la nature, le sport</h3>
+                    <h3 data-aos="fade-up" data-aos-delay="0">Ma famille, la nature, le sport</h3>
                     
                     <div class="column-text">
-                        <p>Ma belle-famille étant dans le Jura, nous profitons de longs week-ends ou les vacances pour aller profiter au maximum de la nature. La forêt, les lacs et les grands espaces vallonnés.</p>
+                        <p data-aos="fade-up" data-aos-delay="50">Ma belle-famille étant dans le Jura, nous profitons de longs week-ends ou les vacances pour aller profiter au maximum de la nature. La forêt, les lacs et les grands espaces vallonnés.</p>
         
-                        <div class="split"></div>
+                        <div class="split" data-aos="fade-up" data-aos-delay="100"></div>
                     </div>
-    
-                    <img src="<?php echo baseUrl('medias/pages/images/home/hobbies/loisirs/img-left.jpg'); ?>" alt="">
+
+                    <div class="img-wrapper" data-aos="fade-up" data-aos-delay="150">
+                        <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/loisirs/img-left.jpg'); ?>" alt="">
+                    </div>
                 </div>        
             </div>
         </div>

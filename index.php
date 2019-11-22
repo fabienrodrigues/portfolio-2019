@@ -4,8 +4,8 @@
     include('functions.php');
 
     $data = [
-        'cssFiles' => [baseUrl('/medias/pages/styles/css/home.css')],
-        'jsFiles' => [baseUrl('/medias/pages/scripts/min/home.js')]
+        'bodyClass' => 'home',
+        'description' => 'Fabien Rodrigues, développeur Front-end, intégrateur HTML, CSS, Javascript &agrave; Lons-le-Saunier'
     ];    
     template('partials/start-body.php', $data);
 ?>

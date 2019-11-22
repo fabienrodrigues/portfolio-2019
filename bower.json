@@ -1,9 +1,0 @@
-{
-	"name": "portfolio2019",
-	"dependencies": {
-		"jquery": "2.1.4",
-		"fastclick": "latest",
-		"svgxuse": "latest",
-		"imgLiquid": "latest"
-	}
-}
