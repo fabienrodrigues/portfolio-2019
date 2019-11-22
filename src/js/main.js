@@ -5,6 +5,7 @@ var functions = require('./components/_functions');
 import {HeaderClass} from './components/_header';
 import {homePage} from './pages/home';
 import {singleProjectPage} from './pages/project';
+import {page404} from './pages/page-404';
 
 import $ from 'jquery';
 window.$ = window.jQuery = $;
@@ -46,6 +47,9 @@ $(document).ready(function () {
     }
     if(document.getElementsByTagName('body')[0].classList.contains('project')) {
         singleProjectPage.readyFn();
+    }
+    if(document.getElementsByTagName('body')[0].classList.contains('page-404')) {
+        page404.readyFn();
     }
 
     

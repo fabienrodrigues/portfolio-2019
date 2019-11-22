@@ -13,6 +13,11 @@ RewriteRule ^index.html$ index.php [L]
 RewriteRule ^projet/([A-Za-z0-9\-]+)$ project.php?project=$1 [L]
 
 
+ErrorDocument 404 https://www.fabienrodrigues.com/404/
+RewriteBase /
+RewriteCond %{REQUEST_URI} ^/404/$
+RewriteRule ^(.*)$ 404.php [L]
+
 
 
 AddType image/svg+xml svg svgz
