@@ -8,8 +8,8 @@
 
         <div id="intro-text">
             <h1>
-                <b>DÉVELOPPEUR</b> <br>
-                <b>FRONT-END </b>
+                DÉVELOPPEUR <br>
+                FRONT-END
                 <span>( HTML, CSS, JS )</span>
             </h1>
         </div>

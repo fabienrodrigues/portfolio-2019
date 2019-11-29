@@ -40,11 +40,11 @@
                 transform: translateX(-100%);
                 @include easeInOutCirc(0.4s, transform);
     
-                @include media-breakpoint-down(md) {
+                @include media-breakpoint-down(lg) {
                     width: 73%;
                 }
     
-                @include media-breakpoint-down(sm) {
+                @include media-breakpoint-down(xs) {
                     width: 85%;
                 }
             }
@@ -63,17 +63,24 @@
                 }
     
                 h1{
+                    @include fontSize(58px);
                     line-height: 0.8;
                     color: $white;
                     letter-spacing: -0.025em;
     
-                    @include media-breakpoint-down(sm) {
+                    @include media-breakpoint-down(xs) {
                         font-size: 30px;
                     }
     
                     span{
                         display: block;
+                        margin-top: calculateRem(4px);
                         @include fontLt;
+                        @include fontSize(41px);
+
+                        @include media-breakpoint-down(xs) {
+                            font-size: $fontM;
+                        }
                     }
                 }
             }
@@ -440,6 +447,34 @@
                         margin-bottom: $spacerS;
                     }
 
+                    &:before{
+                        content: "";
+                        background-color: $primary;
+                        width: 0;
+                        height: 100%;
+                        position: absolute;
+                        z-index: 2;
+                        top: 0;
+                        left: 0;
+                    }
+
+                    &.aos-animate{
+                        &:before{
+                            animation: 1.25s cubic-bezier(0.785, 0.135, 0.150, 0.860) forwards slideLayer;
+                        }
+
+                        img{
+                            animation: 1.25s forwards imgAppear;
+                            opacity: 1
+                        }
+                    }
+
+                    &[data-aos="swipe"]{
+                        img{
+                            opacity: 0;
+                        }
+                    }
+
                     &.center{
                         margin: 0 auto;
 
@@ -518,6 +553,50 @@
                     margin: $spacerS auto;
                 }
             }
+        }
+    }
+
+    @keyframes slideLayer {
+        0% {
+            left: 0;
+            right: auto;
+            width: .5rem;
+        }
+    
+        50% {
+            left: 0;
+            right: auto;
+            width: 100%;
+        }
+    
+        51% {
+            left: auto;
+            right: 0;
+            width: 100%;
+        }
+    
+        to {
+            left: auto;
+            right: 0;
+            width: 0;
+        }
+    }
+
+    @keyframes imgAppear {
+        0% {
+            opacity: 0
+        }
+    
+        50% {
+            opacity: 0
+        }
+    
+        51% {
+            opacity: 1
+        }
+    
+        to {
+            opacity: 1
         }
     }
 

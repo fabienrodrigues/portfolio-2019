@@ -10,9 +10,9 @@
     <div id="hobbies-grid" class="grid">
         <div class="grid-row">
             <div class="content reverse-xs">
-                <div class="column left" data-aos="fade-up" data-aos-delay="0">
+                <div class="column left">
                     <div class="text-center">
-                        <div class="img-wrapper">
+                        <div class="img-wrapper" data-aos="swipe" data-aos-delay="0">
                             <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/bois/img-left.jpg'); ?>" alt="">
                         </div>
                     </div>
@@ -28,7 +28,7 @@
                         <div class="split" data-aos="fade-up" data-aos-delay="200"></div>
                     </div>
     
-                    <div class="img-wrapper" data-aos="fade-up" data-aos-delay="250">
+                    <div class="img-wrapper" data-aos="swipe" data-aos-delay="250">
                         <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/bois/img-right.jpg'); ?>" alt="">
                     </div>
                 </div>
@@ -49,16 +49,16 @@
             </div>
 
             <div class="content middle">
-                <div class="column left" data-aos="fade-up" data-aos-delay="150">
+                <div class="column left">
                     <div class="text-center">
-                        <div class="img-wrapper" data-aos="">
+                        <div class="img-wrapper" data-aos="swipe" data-aos-delay="150">
                             <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/matieres/img-left2.jpg'); ?>" alt="" class="">
                         </div>
                     </div>
                 </div>
     
-                <div class="column right" data-aos="fade-up" data-aos-delay="200">
-                    <div class="img-wrapper" data-aos="">
+                <div class="column right">
+                    <div class="img-wrapper" data-aos="swipe" data-aos-delay="200">
                         <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/matieres/img-right1.jpg'); ?>" alt="">
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                 </div>
 
                 <div class="column right">
-                    <div class="img-wrapper mtSpacerM" data-aos="fade-up" data-aos-delay="100">
+                    <div class="img-wrapper mtSpacerM" data-aos="swipe" data-aos-delay="100">
                         <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/matieres/img-left1.jpg'); ?>" alt="Arc'teryx" class="">
                     </div>
                 </div>
@@ -85,10 +85,10 @@
         <div class="grid-row">
             <div class="content reverse-xs">
                 <div class="column left">
-                    <div class="img-wrapper" data-aos="fade-up" data-aos-delay="0">
+                    <div class="img-wrapper" data-aos="swipe" data-aos-delay="0">
                         <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/loisirs/img-right.jpg'); ?>" alt="">
                     </div>
-                    <div class="img-wrapper" data-aos="fade-up" data-aos-delay="100">
+                    <div class="img-wrapper" data-aos="swipe" data-aos-delay="100">
                         <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/loisirs/img-right2.jpg'); ?>" alt="">
                     </div>
                 </div>
@@ -102,7 +102,7 @@
                         <div class="split" data-aos="fade-up" data-aos-delay="100"></div>
                     </div>
 
-                    <div class="img-wrapper" data-aos="fade-up" data-aos-delay="150">
+                    <div class="img-wrapper" data-aos="swipe" data-aos-delay="150">
                         <img src="<?php echo baseUrl('dist/images/pages/home/hobbies/loisirs/img-left.jpg'); ?>" alt="">
                     </div>
                 </div>        

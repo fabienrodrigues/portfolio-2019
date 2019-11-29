@@ -56,6 +56,21 @@
 }
 
 
+// --- CONVERT PX TO REM ---
+// Function for converting a px based font-size to rem.
+@function calculateRem($size) {
+    $remSize: $size / 16px;
+    //Default font size on html element is 100%, equivalent to 16px;
+    @return #{$remSize}rem;
+}
+
+// Mixin that will include the fall back px declaration as well as the calculated rem value.
+@mixin fontSize($size) {
+    font-size: $size;
+    font-size: calculateRem($size);
+}
+
+
 // --- EASING ---
 @mixin easeInOutCirc($time, $propertie: all){
     -webkit-transition: $propertie $time cubic-bezier(0.785, 0.135, 0.150, 0.860);
