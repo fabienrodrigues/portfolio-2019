@@ -13,9 +13,9 @@
             
 <section id="content">
     <?php include('partials/home/intro.php'); ?>
-    <?php include('partials/home/portfolio.php'); ?>
     <?php include('partials/home/about.php'); ?>
-    <?php include('partials/home/hobbies.php'); ?>
+    <?php include('partials/home/portfolio.php'); ?>
+    <?php //include('partials/home/hobbies.php'); ?>
 </section>
 <!-- /SECTION -->
 

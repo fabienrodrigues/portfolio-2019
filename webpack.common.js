@@ -3,6 +3,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const path = require('path');
 const isDevelopment = process.env.NODE_ENV === 'development';
 const CopyWebpackPlugin = require('copy-webpack-plugin');
+const SVGSpritemapPlugin = require('svg-spritemap-webpack-plugin');
 
 
 module.exports = {
@@ -12,8 +13,7 @@ module.exports = {
         filename: 'js/main.min.js',
     },
     module: {
-        rules: [
-            {
+        rules: [{
                 test: /\.js$/,
                 exclude: /node_modules/,
                 loader: "babel-loader"
@@ -24,7 +24,7 @@ module.exports = {
                     isDevelopment ? 'style-loader' : MiniCssExtractPlugin.loader,
                     {
                         loader: 'css-loader',
-                        options: { 
+                        options: {
                             sourceMap: isDevelopment
                         }
                     },
@@ -37,7 +37,7 @@ module.exports = {
                     },
                     {
                         loader: 'sass-loader',
-                        options: { 
+                        options: {
                             sourceMap: isDevelopment
                         },
                     },
@@ -58,13 +58,20 @@ module.exports = {
                         outputPath: './images/'
                     }
                 }]
-            }
+            },
         ]
     },
     plugins: [
         new MiniCssExtractPlugin(),
-        new CopyWebpackPlugin([
-            {from:'src/images',to:'images'} 
-        ])
+        new CopyWebpackPlugin([{
+            from: 'src/images',
+            to: 'images',
+        }]),
+        new SVGSpritemapPlugin(
+            'src/images/components/icons/**/*.svg', {
+                output: {
+                    filename: 'images/sprite.svg'
+                }
+            })
     ]
 }

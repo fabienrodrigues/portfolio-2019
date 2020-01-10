@@ -8,24 +8,24 @@ export class HeaderClass {
 	}
 
 	switchMenu() {
-		if (document.getElementById('header').classList.contains('open')) {
-			
+		if (this.header.classList.contains('open')) {
+
 			this.closeMenu(false);
-	
+
 		} else {
-	
+
 			this.openMenu();
-	
+
 		}
-	
+
 		return false;
 	}
 
 	openMenu() {
-		document.getElementById('header').classList.add('open');
-	
-		setTimeout(function() {	
-			$('#header .filter').on('touchmove',function(e) {
+		this.header.classList.add('open');
+
+		setTimeout(function () {
+			$('#header .filter').on('touchmove', function (e) {
 				e.preventDefault();
 			});
 		}, 250);
@@ -48,27 +48,27 @@ export class HeaderClass {
 	headerScroll(windowScroll) {
 		var self = this;
 		let headerHeight = self.header.offsetHeight;
-		
-		if(Math.abs(windowScroll) >= headerHeight) {
 
-			if(!self.isScrolled) {
+		if (Math.abs(windowScroll) >= headerHeight) {
+
+			if (!self.isScrolled) {
 				self.addScrolled();
 			}
-			
+
 		} else {
-			
-			if(self.isScrolled) {
+
+			if (self.isScrolled) {
 				self.removeScrolled();
 			}
 
-			if(self.isScrolled && !self.isForceScrolled ) {
+			if (self.isScrolled && !self.isForceScrolled) {
 				self.removeScrolled();
 			}
-	
-			if(self.isForceScrolled) {
+
+			if (self.isForceScrolled) {
 				self.addScrolled();
 			}
-			
+
 		}
 	}
 
@@ -77,12 +77,22 @@ export class HeaderClass {
 		let self = this;
 		self.headerScroll($(window).scrollTop());
 
-		if(self.isForceScrolled) {
+		if (self.isForceScrolled) {
 			self.header.classList.add('forced');
 		}
 
-		$(window).on('scroll', function() {
+		$(window).on('scroll', function () {
 			self.headerScroll($(window).scrollTop());
 		});
+
+		$('#header .links-list a').on('click', function (e) {
+			if ($(this).attr('href') == '#contacts') {
+				e.preventDefault();
+
+				$('html, body').animate({
+					scrollTop: $('#footer').offset().top
+				}, 400);
+			}
+		})
 	}
 }

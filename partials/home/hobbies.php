@@ -97,7 +97,7 @@
                     <h3 data-aos="fade-up" data-aos-delay="0">Ma famille, la nature, le sport</h3>
                     
                     <div class="column-text">
-                        <p data-aos="fade-up" data-aos-delay="50">Ma belle-famille étant dans le Jura, nous profitons de longs week-ends ou les vacances pour aller profiter au maximum de la nature. La forêt, les lacs et les grands espaces vallonnés.</p>
+                        <p data-aos="fade-up" data-aos-delay="50">Profiter au maximum de la nature, la forêt, les lacs et les grands espaces vallonnés. Le Jura et les environs n'en manquent pas.</p>
         
                         <div class="split" data-aos="fade-up" data-aos-delay="100"></div>
                     </div>

@@ -5,7 +5,7 @@
             <p data-aos="fade-up" data-aos-delay="100"><?php echo($projectData->intro); ?></p>
             <?php if($projectData->websiteLink) : ?>
                 <div data-aos="fade-up" data-aos-delay="150">
-                    <a href="<?php echo($projectData->websiteLink); ?>" target="_blank" title="Voir le site <?php echo($projectData->title); ?>" class="button primary">Voir le site</a>
+                    <a href="<?php echo($projectData->websiteLink); ?>" target="_blank" title="Voir le site <?php echo($projectData->title); ?>" class="button primary hover-dark">Voir le site</a>
                 </div>
             <?php endif; ?>
         </div>

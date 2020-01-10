@@ -1,4 +1,4 @@
-.button{
+.button {
 	display: inline-block;
 	position: relative;
 	padding: 5px 20px;
@@ -6,12 +6,12 @@
 	color: $white;
 	transition: all 0.25s ease;
 
-	.isChrome &{
+	.isChrome & {
 		padding-top: 7px;
 	}
 
 	&:before,
-	&:after{
+	&:after {
 		content: '';
 		width: 20px;
 		height: 100%;
@@ -20,48 +20,73 @@
 		transform: skew(-10deg);
 		transition: background-color 0.25s ease;
 	}
-	&:before{
+
+	&:before {
 		left: -4px;
 	}
-	&:after{
+
+	&:after {
 		right: -4px;
 	}
 
-	.icon{
+	.icon {
 		transition: fill 0.25s ease;
 	}
 
 
-	@each $colorName, $color in $colors {
+	@each $colorName,
+	$color in $colors {
 		&.#{$colorName} {
 			background-color: $color;
 
 			&:before,
-			&:after{
+			&:after {
 				background-color: $color;
 			}
 
-			.no-touch &:hover{
+			.no-touch &:hover {
 				background: $white;
 				color: $color;
 
 				&:before,
-				&:after{
+				&:after {
 					background: $white;
 				}
 
-				.icon{
+				.icon {
 					fill: $color;
 				}
 			}
 		}
 	}
 
-	&.white{
+	&.white {
 		color: $primary;
 
-		.no-touch &:hover{
-			color: $primaryDark;
+		.no-touch &:hover {
+			background-color: $greyDark;
+			color: $white;
+
+			&:before,
+			&:after {
+				background-color: $greyDark;
+			}
+		}
+	}
+
+	&.hover-dark {
+		.no-touch &:hover {
+			background: $greyDark;
+			color: $white;
+
+			&:before,
+			&:after {
+				background: $greyDark;
+			}
+
+			.icon {
+				fill: $white;
+			}
 		}
 	}
 }

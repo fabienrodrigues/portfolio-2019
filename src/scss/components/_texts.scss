@@ -1,66 +1,90 @@
 // --- TYPOS ---
 // -------------
-	$fontXS	: 12px;
-	$fontS	: 16px;
-	$fontM	: 24px;
-	$fontL	: 36px;
-	$fontXL	: 48px;
+$fontXS: 12px;
+$fontS: 16px;
+$fontM: 21px;
+$fontL: 36px;
+$fontXL: 48px;
 
 
-	h1{
-		@include fontBd;
-		font-size: $fontXL;
-		line-height: $fontXL;
-		text-transform: uppercase;
+h1 {
+	@include fontBd;
+	font-size: $fontXL;
+	line-height: $fontXL;
+	text-transform: uppercase;
+}
+
+h2 {
+	position: relative;
+	@include fontBd;
+	font-size: $fontL;
+	line-height: $fontL;
+	text-transform: uppercase;
+
+	&:before {
+		content: '';
+		background: $primary;
+		width: 20px;
+		height: 2px;
+		position: absolute;
+		bottom: 3px;
+		left: 0;
 	}
 
-	h2{
-		position: relative;
-		@include fontBd;
-		font-size: $fontL;
-		line-height: $fontL;
-		text-transform: uppercase;
-
-		&:before{
-			content: '';
-			background: $primary;
-			width: 20px;
-			height: 2px;
-			position: absolute;
-			bottom: 3px;
-			left: 0;
-		}
-	}
-
-	h3{
-		@include fontBd;
+	@include media-breakpoint-down(sm) {
 		font-size: $fontM;
-		line-height: $fontM;
-		text-transform: uppercase;
+	}
+}
 
-		&:after{
-			content: '';
-			background: $greyDark;
-			width: 24px;
-			height: 1px;
-			display: inline-block;
-			margin-top: -3px;
-			margin-left: 2px;
-		}
+h3 {
+	@include fontBd;
+	font-size: $fontM;
+	line-height: $fontM;
+	text-transform: uppercase;
+
+	&:after {
+		content: '';
+		background: $greyDark;
+		width: 20px;
+		height: 2px;
+		display: inline-block;
+		margin-top: -3px;
+		margin-left: 2px;
 	}
 
-	a {
-		text-decoration: none;
+	@include media-breakpoint-down(sm) {
+		font-size: calculateRem(18px);
 	}
+}
 
-	.small{
-		font-size: $fontXS;
-	}
+a {
+	text-decoration: none;
+}
+
+.small {
+	font-size: $fontXS;
+}
+
 // --- /TYPOS ---
 
 
 // SURLIGNEMENT DES TEXTES
-::-moz-selection{background: $black; color:$white;}
-::-moz-selection{background: $black; color:$white;}
-::-webkit-selection{background: $black; color:$white;}
-::selection{background: $black; color:$white;}
+::-moz-selection {
+	background: $black;
+	color: $white;
+}
+
+::-moz-selection {
+	background: $black;
+	color: $white;
+}
+
+::-webkit-selection {
+	background: $black;
+	color: $white;
+}
+
+::selection {
+	background: $black;
+	color: $white;
+}
