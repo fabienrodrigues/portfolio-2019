@@ -79,7 +79,7 @@
                         transition-delay: 0.6s;
 
                         &.bg {
-                            background: url("../images/pages/home/intro/bg-titre.png") left center no-repeat;
+                            background: url("../images/pages/home/intro/bg-titre.jpg") center center no-repeat;
                             background-size: 110% auto;
                             display: block;
                             position: relative;
@@ -100,6 +100,10 @@
                             }
                         }
                     }
+                }
+
+                .button {
+                    margin-top: $spacerS;
                 }
             }
 
@@ -197,10 +201,28 @@
         margin-bottom: $spacerM;
         text-align: justify;
         color: $white;
+
+        @include media-breakpoint-down(sm) {
+            margin-bottom: $spacerS;
+        }
     }
 
     #services-list {
         margin-bottom: $spacerM;
+
+        @include media-breakpoint-down(sm) {
+            margin-bottom: $spacerS;
+        }
+
+        .col-md-3 {
+            overflow: hidden;
+
+            &:last-child {
+                .service {
+                    margin-bottom: 0;
+                }
+            }
+        }
     }
 
     .service {
@@ -209,23 +231,48 @@
         text-align: center;
         transform: skewX(-10deg);
 
+        @include media-breakpoint-down(sm) {
+            height: auto;
+            width: calc(100% - 40px);
+            margin: 0 auto $spacerS;
+        }
+
         &-inner {
             position: relative;
             height: 100%;
             padding: $spacerS $spacerS $spacerM;
             transform: skewX(10deg);
+
+            @include media-breakpoint-down(sm) {
+                padding: $spacerS;
+            }
         }
 
         p {
             margin-bottom: 0;
             color: $greyDark;
+
+            @include media-breakpoint-down(sm) {
+                text-align: left;
+            }
         }
 
         .d-flex {
             position: absolute;
-            bottom: 20px;
-            left: -11px;
-            right: 16px;
+            bottom: calculateRem(20px);
+            left: calculateRem(-11px);
+            right: calculateRem(16px);
+
+            @include media-breakpoint-down(sm) {
+                position: static;
+                margin-top: calculateRem(20px);
+            }
+
+            a {
+                @include media-breakpoint-down(sm) {
+                    margin-left: calculateRem(-27px);
+                }
+            }
         }
     }
 
@@ -235,38 +282,38 @@
                 margin-bottom: $spacerM;
 
                 h4 {
-                    width: 180px;
+                    width: calculateRem(180px);
                     display: inline-block;
                     vertical-align: top;
                     position: relative;
-                    padding-left: 84px;
+                    padding-left: calculateRem(84px);
                     @include fontBd;
                     text-transform: uppercase;
                     text-align: right;
-                    font-size: 18px;
-                    line-height: 20px;
+                    font-size: calculateRem(18px);
+                    line-height: calculateRem(20px);
                     color: $white;
 
                     @include media-breakpoint-down(sm) {
                         width: auto;
-                        padding-left: 14px;
+                        padding-left: calculateRem(14px);
                     }
 
                     &:before {
                         content: "";
                         background: $primary;
-                        width: 40px;
+                        width: calculateRem(40px);
                         height: 100%;
                         position: absolute;
                         left: 0;
                         transform: skew(-16deg);
 
                         @include media-breakpoint-down(md) {
-                            left: -33px;
+                            left: calculateRem(-33px);
                         }
 
                         @include media-breakpoint-down(sm) {
-                            width: 30px;
+                            width: calculateRem(30px);
                         }
                     }
 
@@ -280,14 +327,14 @@
                         height: 1px;
 
                         @include media-breakpoint-down(sm) {
-                            left: -10px;
+                            left: calculateRem(-10px);
                         }
                     }
                 }
 
                 .job-content {
                     display: inline-block;
-                    padding-left: 72px;
+                    padding-left: calculateRem(72px);
 
                     @include media-breakpoint-down(md) {
                         width: calc(100% - 190px);
@@ -295,8 +342,8 @@
 
                     @include media-breakpoint-down(sm) {
                         width: 100%;
-                        padding-top: 5px;
-                        padding-left: 14px;
+                        padding-top: calculateRem(5px);
+                        padding-left: calculateRem(14px);
                     }
                 }
             }

@@ -1,10 +1,10 @@
 // --- TYPOS ---
 // -------------
-$fontXS: 12px;
-$fontS: 16px;
-$fontM: 21px;
-$fontL: 36px;
-$fontXL: 48px;
+$fontXS: calculateRem(12px);
+$fontS: calculateRem(16px);
+$fontM: calculateRem(21px);
+$fontL: calculateRem(36px);
+$fontXL: calculateRem(48px);
 
 
 h1 {

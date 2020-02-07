@@ -1,17 +1,15 @@
 <div id="intro">
     <div id="intro-content">
         <div class="img-container imgLiquid">
-            <img data-src="<?php echo baseUrl('dist/images/pages/home/intro/bg-intro3.jpg'); ?>" alt="Fabien Rodrigues - développeur front-end à Lons-le-Saunier">
+            <img data-src="<?php echo baseUrl('dist/images/pages/home/intro/bg-intro3.jpg'); ?>" alt="Fabien Rodrigues - Intégrateur Web à Lons-le-Saunier">
         </div>
-
-        <div class="overlay"></div>
 
         <div id="intro-text">
             <h1>
-                <span class="bg">DÉVELOPPEUR <br>
-                FRONT-END</span>
-                <span>freelance</span>
+                <span class="bg">Intégrateur Web</span>
+                <span>indépendant</span>
             </h1>
+            <a href="#contacts" class="button primary">Me contacter</a>
         </div>
 
         <div class="scroll-arrow">

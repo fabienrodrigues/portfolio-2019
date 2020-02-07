@@ -1,7 +1,7 @@
 <div id="portfolio" class="section">
     <div class="content">
         <h2 data-aos="fade-up" data-aos-delay="0">Projets</h2>
-        <p data-aos="fade-up" data-aos-delay="100" id="portfolio-intro">Les derniers projets sur lesquels j'ai travaillé</p>
+        <p data-aos="fade-up" data-aos-delay="100" id="portfolio-intro">Les derniers projets de sites vitrines et e-commerces sur lesquels j'ai travaillé</p>
     
         <div id="portfolio-content">
             <?php

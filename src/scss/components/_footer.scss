@@ -1,12 +1,17 @@
 /* --- FOOTER --- */
-footer {
+#footer {
 	background: $greyDark;
 	position: relative;
+
+	p {
+		color: $white;
+	}
 
 	ul {
 		display: flex;
 		justify-content: center;
 		flex-wrap: wrap;
+		margin-top: $spacerS;
 
 		li {
 			width: 100%;

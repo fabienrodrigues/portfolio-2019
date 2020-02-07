@@ -5,7 +5,7 @@
 
     $data = [
         'bodyClass' => 'home',
-        'description' => 'Fabien Rodrigues, développeur Front-end, intégrateur HTML, CSS, Javascript &agrave; Lons-le-Saunier'
+        'description' => 'Découvrez mon portfolio, mes prestations de développeur Front-end, intégrateur Web freelance dans le Jura &agrave; Lons-le-Saunier'
     ];    
     template('partials/start-body.php', $data);
 ?>

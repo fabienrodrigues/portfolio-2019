@@ -4,11 +4,11 @@
             <h2 data-aos="fade-up" data-aos-delay="0">À propos</h2>
             <div class="row">
                 <div class="col-md-8">
-                    <p data-aos="fade-up" data-aos-delay="100" id="about-intro">Issu d'une formation en communication visuelle, j'ai fait mes premières armes dans le web en tant que webdesigner <br>
+                    <p data-aos="fade-up" data-aos-delay="100" id="about-intro">Issu d'une formation en communication visuelle, j'ai fait mes premières armes dans le web en tant que webdesigner <br class="d-sm-none">
                     et peu à peu dévié vers le côté obscur des graphistes... le code.<br>
                     <br>
-                    Développeur front-end pendant 7 ans dans une agence de communication, <br>
-                    j'étais en charge de l'intégration et du développement front-end des sites et emailings réalisés par l'agence <br>
+                    Développeur front-end pendant 7 ans dans une agence de communication, <br class="d-sm-none">
+                    j'étais en charge de l'intégration et du développement front-end des sites et emailings réalisés par l'agence <br class="d-sm-none">
                     pour des clients comme Leroy Merlin, Orange, Decathlon, Pizza Paï.</p>
                 </div>
             </div>
@@ -18,9 +18,9 @@
             <h2 data-aos="fade-up" data-aos-delay="150">Mes prestations</h2>
             <div class="row">
                 <div class="col-md-8">
-                    <p data-aos="fade-up" data-aos-delay="200">Basé à Lons-le-Saunier dans le Jura, je développe votre communication et visibilité sur le web <br>
-                    avec la <strong>création de site internet sur-mesure</strong> sous Wordpress, de <strong>site e-commerce</strong> avec Woocommerce ou Prestashop, <br>
-                    de campagne <strong>e-mailing</strong> et de page professionnelle sur les principaux réseaux sociaux.</p>
+                    <p data-aos="fade-up" data-aos-delay="200">Basé à Lons-le-Saunier dans le Jura, je développe votre communication et visibilité sur le web <br class="d-sm-none">
+                    avec la <strong>création de sites internet sur-mesure</strong> sous Wordpress, de <strong>sites e-commerce</strong> avec Woocommerce ou Prestashop, <br class="d-sm-none">
+                    de campagnes <strong>e-mailing</strong> et de pages professionnelles sur les principaux réseaux sociaux.</p>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@
                     <div class="service">
                         <div class="service-inner" data-aos="fade-up" data-aos-delay="300">
                             <h3>Site vitrine</h3>
-                            <p>Le site qui présentera votre activité, vos talents</p>
+                            <p>Conception, design et développement de votre site présentant et valorisant votre activité, vos talents.</p>
                             <div class="d-flex justify-content-center">
                                 <a href="<?php echo baseUrl('/projet/plaine-images'); ?>" class="button primary hover-dark">Voir un exemple</a>
                             </div>
@@ -41,7 +41,7 @@
                     <div class="service">
                         <div class="service-inner">
                             <h3>Site e-commerce</h3>
-                            <p>Le site qui vous permettra de vendre vos produits sur internet</p>
+                            <p>Conception, design et développement de votre site permettant la vente de vos produits en ligne.</p>
                             <div class="d-flex justify-content-center">
                                 <a href="<?php echo baseUrl('/projet/serioustoys'); ?>" class="button primary hover-dark">Voir un exemple</a>
                             </div>
@@ -62,7 +62,7 @@
                     <div class="service">
                         <div class="service-inner">
                             <h3>Réseaux sociaux</h3>
-                            <p>Améliorez votre visibilité en étant présent sur les réseaux sociaux</p>
+                            <p>Intégration de votre marque sur les réseaux sociaux.</p>
                         </div>
                     </div>
                 </div>
