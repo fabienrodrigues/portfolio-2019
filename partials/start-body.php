@@ -84,26 +84,28 @@
     <meta name="msapplication-TileImage" content="<?php echo baseUrl('dist/images/components/favicons/mstile-144x144.png'); ?>">
 
 
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
-    <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css"></noscript>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" async></script>
     <script>
-    window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-        "palette": {
-            "popup": {
-            "background": "#282425"
-            },
-            "button": {
-            "background": "#e82d43"
-            }
-        },
-        "content": {
-            "message": "Ce site utilise des cookies pour améliorer votre expérience de navigation et vous offrir un service plus personnalisé. En poursuivant votre navigation sur ce site, vous acceptez l’utilisation des cookies.",
-            "dismiss": "Accepter",
-            "link": "Informations",
-            "href": "http://www.google.com/policies/technologies/cookies"
-        }
-    })});
+        window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+                "palette": {
+                    "popup": {
+                    "background": "#282425"
+                    },
+                    "button": {
+                    "background": "#e82d43"
+                    }
+                },
+                "content": {
+                    "message": "Ce site utilise des cookies pour améliorer votre expérience de navigation et vous offrir un service plus personnalisé. En poursuivant votre navigation sur ce site, vous acceptez l’utilisation des cookies.",
+                    "dismiss": "Accepter",
+                    "link": "Informations",
+                    "href": "http://www.google.com/policies/technologies/cookies"
+                }
+            })
+        });
     </script>
 </head>
 

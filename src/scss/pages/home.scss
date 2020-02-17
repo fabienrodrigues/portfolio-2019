@@ -215,7 +215,9 @@
         }
 
         .col-md-3 {
-            overflow: hidden;
+            @include media-breakpoint-down(sm) {
+                overflow: hidden;
+            }
 
             &:last-child {
                 .service {
@@ -233,7 +235,7 @@
 
         @include media-breakpoint-down(sm) {
             height: auto;
-            width: calc(100% - 40px);
+            width: calc(100% - 20px);
             margin: 0 auto $spacerS;
         }
 
@@ -244,7 +246,7 @@
             transform: skewX(10deg);
 
             @include media-breakpoint-down(sm) {
-                padding: $spacerS;
+                padding: $spacerXS;
             }
         }
 
