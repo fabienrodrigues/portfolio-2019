@@ -1,4 +1,4 @@
-<div id="knowledges">
+<div id="knowledges" data-aos-id="gasend" data-event-category="section" data-event-action="scroll" data-event-label="Section Mes compétences">
     <h2 data-aos="fade-up" data-aos-delay="0">Mes compétences</h2>
 
     <ul>
@@ -17,14 +17,14 @@
                 <use xlink:href="<?php echo baseUrl('/dist/images/sprite.svg#sprite-css'); ?>"></use>
             </svg>
         </li>
-        <li data-aos="fade-up" data-aos-delay="200">
-            <svg class="icon white sass" aria-hidden="true">
-                <use xlink:href="<?php echo baseUrl('/dist/images/sprite.svg#sprite-sass'); ?>"></use>
-            </svg>
-        </li>
         <li data-aos="fade-up" data-aos-delay="250">
             <svg class="icon white js" aria-hidden="true">
                 <use xlink:href="<?php echo baseUrl('/dist/images/sprite.svg#sprite-js'); ?>"></use>
+            </svg>
+        </li>
+        <li data-aos="fade-up" data-aos-delay="200">
+            <svg class="icon white sass" aria-hidden="true">
+                <use xlink:href="<?php echo baseUrl('/dist/images/sprite.svg#sprite-sass'); ?>"></use>
             </svg>
         </li>
         <li data-aos="fade-up" data-aos-delay="300">

@@ -225,58 +225,59 @@
                 }
             }
         }
-    }
 
-    .service {
-        background: $greyLight;
-        height: 100%;
-        text-align: center;
-        transform: skewX(-10deg);
-
-        @include media-breakpoint-down(sm) {
-            height: auto;
-            width: calc(100% - 20px);
-            margin: 0 auto $spacerS;
-        }
-
-        &-inner {
-            position: relative;
+        .service {
+            background: $greyLight;
             height: 100%;
-            padding: $spacerS $spacerS $spacerM;
-            transform: skewX(10deg);
+            text-align: center;
+            transform: skewX(-10deg);
 
             @include media-breakpoint-down(sm) {
-                padding: $spacerXS;
-            }
-        }
-
-        p {
-            margin-bottom: 0;
-            color: $greyDark;
-
-            @include media-breakpoint-down(sm) {
-                text-align: left;
-            }
-        }
-
-        .d-flex {
-            position: absolute;
-            bottom: calculateRem(20px);
-            left: calculateRem(-11px);
-            right: calculateRem(16px);
-
-            @include media-breakpoint-down(sm) {
-                position: static;
-                margin-top: calculateRem(20px);
+                height: auto;
+                width: calc(100% - 20px);
+                margin: 0 auto $spacerS;
             }
 
-            a {
+            &-inner {
+                position: relative;
+                height: 100%;
+                padding: $spacerS $spacerS $spacerM;
+                transform: skewX(10deg);
+
                 @include media-breakpoint-down(sm) {
-                    margin-left: calculateRem(-27px);
+                    padding: $spacerXS;
+                }
+            }
+
+            p {
+                margin-bottom: 0;
+                color: $greyDark;
+
+                @include media-breakpoint-down(sm) {
+                    text-align: left;
+                }
+            }
+
+            .d-flex {
+                position: absolute;
+                bottom: calculateRem(20px);
+                left: calculateRem(-11px);
+                right: calculateRem(16px);
+
+                @include media-breakpoint-down(sm) {
+                    position: static;
+                    margin-top: calculateRem(20px);
+                }
+
+                a {
+                    @include media-breakpoint-down(sm) {
+                        margin-left: calculateRem(-27px);
+                    }
                 }
             }
         }
     }
+
 
     #jobs {
         ul {
@@ -353,6 +354,12 @@
     }
 
     #knowledges {
+        margin-bottom: $spacerM;
+
+        @include media-breakpoint-down(sm) {
+            margin-bottom: $spacerS;
+        }
+
         ul {
             display: flex;
             justify-content: space-around;
@@ -463,6 +470,12 @@
                     }
                 }
             }
+        }
+    }
+
+    #about {
+        p {
+            margin-bottom: 0;
         }
     }
 

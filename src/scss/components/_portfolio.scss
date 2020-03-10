@@ -3,6 +3,7 @@
     #portfolio-content {
         display: flex;
         flex-wrap: wrap;
+        justify-content: center;
         position: relative;
         z-index: 3;
         margin: $spacerS ($spacerXS * -1) 0;

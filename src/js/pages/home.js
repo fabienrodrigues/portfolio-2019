@@ -10,16 +10,17 @@ let homePage = {
 
     // execute in window.load
     loadFn: function () {
+        var self = this;
         let intro = document.getElementById('intro');
-        this.heightIntro = intro.offsetHeight;
+        self.heightIntro = intro.offsetHeight;
 
         $('.scroll-arrow').on('click', function () {
-            document.documentElement.scrollTop = this.heightIntro;
+            document.documentElement.scrollTop = self.heightIntro;
         });
     },
 
     // Pixel perfect overlay intro
-    overlayIntro: function () {
+    /* overlayIntro: function () {
         let overlay = document.getElementById('intro').querySelectorAll('.overlay')[0];
         let overlayWidth;
 
@@ -31,7 +32,7 @@ let homePage = {
         }
 
         overlay.style.width = overlayWidth + 'px';
-    }
+    } */
 }
 
 export {

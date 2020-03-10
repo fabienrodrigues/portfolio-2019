@@ -83,6 +83,10 @@ $(document).ready(function () {
         e.preventDefault();
     });
 
+    $(document).on('aos:in:gasend', (detail) => {
+        sendGAEvent($(detail.detail));
+    });
+
     AOS.init({
         once: true
     });
@@ -97,4 +101,19 @@ $(window).on('load', function () {
     if (document.getElementsByTagName('body')[0].classList.contains('home')) {
         homePage.loadFn();
     }
+
+    $('.gasend').on('click', function () {
+        sendGAEvent($(this));
+    })
+
+
 });
+
+
+let sendGAEvent = function (elm) {
+    let eventCategory = elm.data('event-category');
+    let eventAcion = elm.data('event-action');
+    let eventLabel = elm.data('event-label');
+
+    ga('send', 'event', eventCategory, eventAcion, eventLabel);
+};

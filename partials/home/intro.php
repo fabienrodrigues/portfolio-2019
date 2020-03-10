@@ -9,7 +9,7 @@
                 <span class="bg">Intégrateur Web</span>
                 <span>indépendant</span>
             </h1>
-            <a href="#contacts" class="button primary">Me contacter</a>
+            <a href="#contacts" class="button primary gasend" data-event-category="button" data-event-action="click" data-event-label="Bouton contact intro">Me contacter</a>
         </div>
 
         <div class="scroll-arrow">

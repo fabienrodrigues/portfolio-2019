@@ -1,4 +1,4 @@
-<div id="portfolio" class="section">
+<div id="portfolio" class="section" data-aos-id="gasend" data-event-category="section" data-event-action="scroll" data-event-label="Section Portfolio">
     <div class="content">
         <h2 data-aos="fade-up" data-aos-delay="0">Projets</h2>
         <p data-aos="fade-up" data-aos-delay="100" id="portfolio-intro">Les derniers projets de sites vitrines et e-commerces sur lesquels j'ai travaillé</p>

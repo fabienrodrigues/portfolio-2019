@@ -1,0 +1,32 @@
+{
+    "metaTitle": "Olivier Bernard - Fabien Rodrigues, Conception, création et développement sous Wordpress",
+    "metaDescription": "Conception, création et développement sous Wordpress du site de Olivier Bernard - Educateur spécialisé thérapeute familial",
+    "title": "Olivier Bernard",
+    "intro": "Conception, création et développement du site sous Wordpress pour l'éducateur spécialisé et thérapeute familial <strong>Olivier Bernard</strong>.",
+    "websiteLink": "http://olivier-bernard.ovh/",
+    "thumbnail": "dist/images/pages/projects/olivierbernard/thumbnail.jpg",
+    "logo": {
+        "src": "dist/images/pages/projects/olivierbernard/logo.svg",
+        "width": "300px"
+    },
+    "firstimg": {
+        "src": "dist/images/pages/projects/olivierbernard/intro.jpg",
+        "alt": "Olivier Bernard - éducateur spécialisé et thérapeute familial"
+    },
+    "page1": {
+        "src": "dist/images/pages/projects/olivierbernard/home-full.jpg",
+        "alt": "Olivier Bernard - déducateur spécialisé et thérapeute familial"
+    },
+    "page2": {
+        "src": "dist/images/pages/projects/olivierbernard/prestation-full.jpg",
+        "alt": "Olivier Bernard - Ses prestations"
+    },
+    "iphone": {
+        "src": "dist/images/pages/projects/olivierbernard/articles-mobile.png",
+        "alt": "Olivier Bernard - Ses articles"
+    },
+    "ipad": {
+        "src": "dist/images/pages/projects/olivierbernard/article-ipad.png",
+        "alt": "Olivier Bernard - Exemple d'article"
+    }
+}

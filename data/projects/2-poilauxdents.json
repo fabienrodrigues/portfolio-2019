@@ -1,0 +1,32 @@
+{
+    "metaTitle": "Poil aux dents - Fabien Rodrigues, Développement Front-end sous Wordpress",
+    "metaDescription": "Développement Front-End sous Wordpress du site Poil aux dents - Directeur artistique freelance",
+    "title": "Poil aux dents",
+    "intro": "Développement Front-End du site <strong>Poil aux dents</strong>. <br>Développé sous Wordpress, Poil aux dents est le portfolio du directeur artistique freelance Bertrand Arnould.",
+    "websiteLink": "https://www.poilauxdents.fr/",
+    "thumbnail": "dist/images/pages/projects/poilauxdents/thumbnail.jpg",
+    "logo": {
+        "src": "dist/images/pages/projects/poilauxdents/logo.svg",
+        "width": "300px"
+    },
+    "firstimg": {
+        "src": "dist/images/pages/projects/poilauxdents/intro.jpg",
+        "alt": "Poil aux dents - directeur artistique print & web en freelance"
+    },
+    "page1": {
+        "src": "dist/images/pages/projects/poilauxdents/home-full.jpg",
+        "alt": "Poil aux dents - directeur artistique print & web en freelance"
+    },
+    "page2": {
+        "src": "dist/images/pages/projects/poilauxdents/projet-full.jpg",
+        "alt": "Poil aux dents - Projet Summer Rebellion"
+    },
+    "iphone": {
+        "src": "dist/images/pages/projects/poilauxdents/services-mobile.png",
+        "alt": "Poil aux dents - Services"
+    },
+    "ipad": {
+        "src": "dist/images/pages/projects/poilauxdents/about-ipad.png",
+        "alt": "Poil aux dents - A propos"
+    }
+}

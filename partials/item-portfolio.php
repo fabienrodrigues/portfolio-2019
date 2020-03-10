@@ -1,4 +1,4 @@
-<a href="<?php echo baseUrl('/projet/' . $projectData->slug); ?>" class="project-item" data-aos="fade-in" data-aos-delay="<?php echo($count * 100); ?>">
+<a href="<?php echo baseUrl('/projet/' . $projectData->slug); ?>" class="project-item" data-aos="fade-in" data-aos-delay="<?php echo($count * 70); ?>">
     <div class="item-content imgLiquid">
         <img src="<?php echo baseUrl($projectData->thumbnail); ?>" alt="<?php echo $projectData->title; ?>">
     </div>
