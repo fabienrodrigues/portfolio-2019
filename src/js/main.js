@@ -104,12 +104,11 @@ $(window).on('load', function () {
 
     $('.gasend').on('click', function () {
         sendGAEvent($(this));
-    })
-
-
+    });
 });
 
 
+// SEND EVENT TO GOOGLE ANALYTICS
 let sendGAEvent = function (elm) {
     let eventCategory = elm.data('event-category');
     let eventAcion = elm.data('event-action');
