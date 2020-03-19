@@ -96,7 +96,6 @@ $(document).ready(function () {
 $(window).on('load', function () {
     document.body.classList.add('loaded');
 
-
     // SCRIPTS FOR PAGES
     if (document.getElementsByTagName('body')[0].classList.contains('home')) {
         homePage.loadFn();
