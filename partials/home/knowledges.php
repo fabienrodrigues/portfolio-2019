@@ -2,9 +2,14 @@
     <h2 data-aos="fade-up" data-aos-delay="0">Mes compétences</h2>
 
     <ul>
-        <li data-aos="fade-up" data-aos-delay="50">
+        <li data-aos="fade-up" data-aos-delay="0">
             <svg class="icon white wordpress" aria-hidden="true">
                 <use xlink:href="<?php echo baseUrl('/dist/images/sprite.svg#sprite-wordpress'); ?>"></use>
+            </svg>
+        </li>
+        <li data-aos="fade-up" data-aos-delay="50">
+            <svg class="icon white prestashop" aria-hidden="true">
+                <use xlink:href="<?php echo baseUrl('/dist/images/sprite.svg#sprite-prestashop'); ?>"></use>
             </svg>
         </li>
         <li data-aos="fade-up" data-aos-delay="100">
