@@ -9,7 +9,7 @@
     
     <div class="header-content">
         <ul class="links-list">
-            <li><a href="<?php echo baseUrl('/'); ?>#portfolio">Portfolio</a></li>
+            <li><a href="<?php echo baseUrl('/'); ?>#projects">Projets</a></li>
             <li><a href="<?php echo baseUrl('/'); ?>#about">A propos</a></li>
             <li><a href="<?php echo baseUrl('/'); ?>#services">Prestations</a></li>
             <li><a href="#contacts">Contact</a></li>

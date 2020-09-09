@@ -1,13 +1,14 @@
 .button {
 	display: inline-block;
 	position: relative;
-	padding: 5px 20px;
+	padding: 14px 20px;
+	text-align: center;
 	text-decoration: none;
 	color: $white;
-	transition: all 0.25s ease;
+	transition: background-color 0.25s ease, color 0.25s ease;
 
 	.isChrome & {
-		padding-top: 7px;
+		padding-top: 16px;
 	}
 
 	&:before,
@@ -22,11 +23,11 @@
 	}
 
 	&:before {
-		left: -4px;
+		left: -6px;
 	}
 
 	&:after {
-		right: -4px;
+		right: -6px;
 	}
 
 	.icon {

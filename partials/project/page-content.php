@@ -18,7 +18,11 @@
             <div class="split"></div>
 
             <?php if($projectData->websiteLink) : ?>
-                <a href="<?php echo($projectData->websiteLink); ?>" target="_blank" class="button white">Voir le site</a>
+                <a href="<?php echo($projectData->websiteLink); ?>" target="_blank" class="button magnetic white">
+                    <span class="button-text">
+                        <span class="button-inner">Voir le site</span>
+                    </span>
+                </a>
             <?php endif; ?>
         </div>
     </div>

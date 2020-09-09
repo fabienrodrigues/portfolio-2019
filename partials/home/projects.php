@@ -1,9 +1,9 @@
-<div id="portfolio" class="section" data-aos-id="gasend" data-event-category="section" data-event-action="scroll" data-event-label="Section Portfolio">
+<div id="projects" class="section" data-aos-id="gasend" data-event-category="section" data-event-action="scroll" data-event-label="Section Portfolio">
     <div class="content">
         <h2 data-aos="fade-up" data-aos-delay="0">Projets</h2>
-        <p data-aos="fade-up" data-aos-delay="100" id="portfolio-intro">Les derniers projets de sites vitrines et e-commerces sur lesquels j'ai travaillé</p>
+        <p data-aos="fade-up" data-aos-delay="100" id="projects-intro">Les derniers projets de sites vitrines et e-commerces sur lesquels j'ai travaillés</p>
     
-        <div id="portfolio-content">
+        <div id="projects-content">
             <?php
                 $folder = __DIR__ . '/../../data/projects';
                 $files = scandir($folder, SCANDIR_SORT_ASCENDING); // SCANDIR_SORT_ASCENDING pour un tri alphanumérique croissant
@@ -17,7 +17,7 @@
                             $projectName = $matches[1];
                             $projectData = getProjectData($projectName);
 
-                            include('partials/item-portfolio.php'); 
+                            include('partials/item-project.php'); 
                         endif;
 
                         $count++;

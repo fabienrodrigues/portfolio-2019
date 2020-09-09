@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-    <title><?php echo(isset($title) ? $title : 'Développeur Front-end, intégrateur Web indépendant dans le Jura &agrave; Lons-le-Saunier. Fabien Rodrigues'); ?></title>
+    <title><?php echo(isset($title) ? $title : 'Développeur Front-end, intégrateur Web freelance dans le Jura &agrave; Lons-le-Saunier. Fabien Rodrigues'); ?></title>
     <meta name="description" content="<?php echo(isset($description) ? $description : 'Découvrez mon portfolio, mes prestations de développeur Front-end, intégrateur Web freelance dans le Jura &agrave; Lons-le-Saunier, Besançon, Dijon'); ?>">
     <meta name="author" content="Fabien Rodrigues">
     <meta name="robots" content="all" />

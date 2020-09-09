@@ -16,7 +16,11 @@
                     <h3>Site vitrine</h3>
                     <p>Conception, design et développement de votre site présentant et valorisant votre activité, vos talents.</p>
                     <div class="d-flex justify-content-center">
-                        <a href="<?php echo baseUrl('/projet/plaine-images'); ?>" class="button primary hover-dark gasend" data-event-category="button" data-event-action="click" data-event-label="Bouton site vitrine">Voir un exemple</a>
+                        <a href="<?php echo baseUrl('/projet/plaine-images'); ?>" class="button primary magnetic hover-dark gasend" data-event-category="button" data-event-action="click" data-event-label="Bouton site vitrine">
+                            <span class="button-text">
+                                <span class="button-inner">Voir un exemple</span>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -28,7 +32,11 @@
                     <h3>Site e-commerce</h3>
                     <p>Conception, design et développement de votre site permettant la vente de vos produits en ligne.</p>
                     <div class="d-flex justify-content-center">
-                        <a href="<?php echo baseUrl('/projet/serioustoys'); ?>" class="button primary hover-dark gasend" data-event-category="button" data-event-action="click" data-event-label="Bouton site e-commerce">Voir un exemple</a>
+                        <a href="<?php echo baseUrl('/projet/serioustoys'); ?>" class="button primary magnetic hover-dark gasend" data-event-category="button" data-event-action="click" data-event-label="Bouton site e-commerce">
+                            <span class="button-text">
+                                <span class="button-inner">Voir un exemple</span>
+                            </span>
+                        </a>
                     </div>
                 </div>
             </div>

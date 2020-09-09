@@ -7,9 +7,15 @@
         <div id="intro-text">
             <h1>
                 <span class="bg">Intégrateur Web</span>
-                <span>indépendant</span>
+                <span>à votre service pour la création de votre site internet</span>
             </h1>
-            <a href="#contacts" class="button primary gasend" data-event-category="button" data-event-action="click" data-event-label="Bouton contact intro">Me contacter</a>
+            <div class="button-wrapper">
+                <a href="#contacts" class="button magnetic primary gasend" data-event-category="button" data-event-action="click" data-event-label="Bouton contact intro">
+                    <span class="button-text">
+                        <span class="button-inner">Me contacter</span>
+                    </span>
+                </a>
+            </div>
         </div>
 
         <div class="scroll-arrow">

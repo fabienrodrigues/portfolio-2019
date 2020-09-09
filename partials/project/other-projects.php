@@ -1,8 +1,8 @@
-<div id="portfolio" class="section">
+<div id="projects" class="section">
     <div class="content">
-        <h3 id="portfolio-intro" data-aos="fade-up" data-aos-delay="0">Les derniers projets développés</h3>
+        <h3 id="projects-intro" data-aos="fade-up" data-aos-delay="0">Les derniers projets développés</h3>
     
-        <div id="portfolio-content">
+        <div id="projects-content">
             <?php
                 $folder = __DIR__ . '/../../data/projects';
                 $files = scandir($folder, SCANDIR_SORT_ASCENDING); // SCANDIR_SORT_ASCENDING pour un tri alphanumérique croissant
@@ -17,7 +17,7 @@
                             $projectName = $matches[1];
                             $projectData = getProjectData($projectName);
 
-                            include('partials/item-portfolio.php'); 
+                            include('partials/item-project.php'); 
                         endif;
                         
                         $count++;

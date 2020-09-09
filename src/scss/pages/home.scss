@@ -60,6 +60,7 @@
 
                 @include media-breakpoint-down(sm) {
                     padding: 0 $spacerXS;
+                    max-width: 80%;
                 }
 
                 h1 {
@@ -92,6 +93,7 @@
                             margin-top: calculateRem(4px);
                             @include font;
                             font-size: $fontM;
+                            line-height: 1.05;
                             letter-spacing: 0;
                             transition-delay: 0.7s;
 
@@ -100,6 +102,13 @@
                             }
                         }
                     }
+                }
+
+                .button-wrapper{
+                    opacity: 0;
+                    transform: translateX(-20px);
+                    @include easeOut(0.5s);
+                    transition-delay: 0.8s;
                 }
 
                 .button {
@@ -142,16 +151,22 @@
                     transform: translateX(0%);
                 } */
 
-                #intro-text span,
-                .scroll-arrow {
+                #intro-text{
+                    h1 span,
+                    .button-wrapper {
+                        opacity: 1;
+                        transform: translateX(0px);
+                    }
+                }
+                .scroll-arrow{
                     opacity: 1;
-                    transform: translateX(0px);
+                    transform: translateY(0px);
                 }
             }
         }
     }
 
-    #portfolio {
+    #projects {
         background-color: $greyLight;
 
         #portfolio-intro {
@@ -160,7 +175,7 @@
         }
 
         .side-left {
-            fill: #e5e5e5;
+            fill: #ececec;
             width: auto;
             height: 100%;
             position: absolute;
@@ -241,7 +256,7 @@
             &-inner {
                 position: relative;
                 height: 100%;
-                padding: $spacerS $spacerS $spacerM;
+                padding: $spacerS $spacerS calculateRem(100px);
                 transform: skewX(10deg);
 
                 @include media-breakpoint-down(sm) {
@@ -390,6 +405,16 @@
                     $s80: 80px;
 
                     &.wordpress {
+                        width: $s98;
+                        height: $s98;
+
+                        @include media-breakpoint-down(sm) {
+                            width: $s98*$reducer;
+                            height: $s98*$reducer;
+                        }
+                    }
+
+                    &.prestashop {
                         width: $s98;
                         height: $s98;
 
