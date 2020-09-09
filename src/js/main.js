@@ -1,6 +1,10 @@
 // IMPORT UTILS
 var utils = require('./components/_utils');
 var functions = require('./components/_functions');
+var functions = require('./components/_functions');
+
+import ButtonCtrl from './components/_magnetic_btn';
+
 
 import {
     HeaderClass
@@ -75,7 +79,7 @@ $(document).ready(function () {
         });
 
 
-    $('#header .navbar-toggle, #header .filter').on('touchend, click', function (e) {
+    $('#header .navbar-toggle').on('touchend, click', function (e) {
         if (dragging) return;
 
         Header.switchMenu();
@@ -89,6 +93,12 @@ $(document).ready(function () {
 
     AOS.init({
         once: true
+    });
+
+
+    // INIT MAGNETIC BUTTONS
+    document.querySelectorAll('.magnetic').forEach(buttonEl => { 
+        const button = new ButtonCtrl(buttonEl);
     });
 });
 

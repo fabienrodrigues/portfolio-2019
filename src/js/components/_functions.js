@@ -1,5 +1,4 @@
 var utils = require('../components/_utils');
-var header = require('../components/_header');
 
 
 // --- WINDOW RESIZE ---
@@ -18,10 +17,6 @@ module.exports.windowResize = function() {
         timeout = true;
         setTimeout(resizeend, delta);
     }
-
-	if(utils.getDeviceKind() !== 'isMobile') {
-		header.closeMenu();
-	}
 };
 
 
