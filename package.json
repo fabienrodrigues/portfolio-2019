@@ -32,14 +32,14 @@
     "postcss-loader": "^2.0.8",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
-    "svg-sprite-loader": "^4.1.6",
+    "svg-sprite-loader": "^6.0.11",
     "svg-spritemap-webpack-plugin": "^3.5.3",
     "svgxuse": "^1.2.6",
     "terser-webpack-plugin": "^2.2.1",
     "url-loader": "^2.1.0",
     "vanilla-lazyload": "^12.0.2",
     "webpack": "^4.41.2",
-    "webpack-cli": "^3.3.10",
+    "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.9.0",
     "webpack-merge": "^4.2.2"
   }
