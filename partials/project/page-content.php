@@ -3,13 +3,21 @@
 
     <div class="section">        
         <div class="column left">
-            <img src="<?php echo baseUrl(($projectData->iphone->src)); ?>" alt="<?php echo baseUrl(($projectData->iphone->alt)); ?>" data-aos="fade-up" data-aos-delay="100">
-            <img src="<?php echo baseUrl(($projectData->page2->src)); ?>" alt="<?php echo baseUrl(($projectData->page2->alt)); ?>" data-aos="fade-up" data-aos-delay="200">
+            <?php if(isset($projectData->iphone)) : ?>
+                <img src="<?php echo baseUrl(($projectData->iphone->src)); ?>" alt="<?php echo baseUrl(($projectData->iphone->alt)); ?>" data-aos="fade-up" data-aos-delay="100">
+            <?php endif; ?>
+            <?php if(isset($projectData->page2)) : ?>
+                <img src="<?php echo baseUrl(($projectData->page2->src)); ?>" alt="<?php echo baseUrl(($projectData->page2->alt)); ?>" data-aos="fade-up" data-aos-delay="200">
+            <?php endif; ?>
         </div>
 
         <div class="column right">
-            <img src="<?php echo baseUrl(($projectData->page1->src)); ?>" alt="<?php echo baseUrl(($projectData->page1->alt)); ?>" data-aos="fade-up" data-aos-delay="0">
-            <img src="<?php echo baseUrl(($projectData->ipad->src)); ?>" alt="<?php echo baseUrl(($projectData->ipad->alt)); ?>" data-aos="fade-up" data-aos-delay="100">
+            <?php if(isset($projectData->page1)) : ?>
+                <img src="<?php echo baseUrl(($projectData->page1->src)); ?>" alt="<?php echo baseUrl(($projectData->page1->alt)); ?>" data-aos="fade-up" data-aos-delay="0">
+            <?php endif; ?>
+            <?php if(isset($projectData->ipad)) : ?>
+                <img src="<?php echo baseUrl(($projectData->ipad->src)); ?>" alt="<?php echo baseUrl(($projectData->ipad->alt)); ?>" data-aos="fade-up" data-aos-delay="100">
+            <?php endif; ?>
         </div>        
     </div>
 

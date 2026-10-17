@@ -24,9 +24,5 @@
     "iphone": {
         "src": "dist/images/pages/projects/serioustoys/fiche-produit-mobile.png",
         "alt": "serioustoys - Fiche produit"
-    },
-    "ipad": {
-        "src": "dist/images/pages/projects/serioustoys/team-ipad.png",
-        "alt": "serioustoys - L'équipe"
     }
 }

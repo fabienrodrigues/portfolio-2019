@@ -72,6 +72,11 @@ function getProjectData($projectName)
  */
 function getJsonFilenameFromSlug($slug)
 {
+    // PHP 8 : stripos() refuse un slug null, et une chaîne vide correspondrait au premier fichier
+    if($slug === null || $slug === '') {
+        return null;
+    }
+
     $folder = __DIR__ . '/data/projects';
     $files = scandir($folder, SCANDIR_SORT_NONE);
 
